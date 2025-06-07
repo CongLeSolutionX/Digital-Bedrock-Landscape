@@ -32,7 +32,7 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 
 ## 1. Introduction: What is macOS?
 
-macOS is the primary operating system developed and marketed by Apple Inc. for its Mac line of computers, including MacBooks, iMacs, Mac minis, and Mac Pros. Originally named Mac OS X, then OS X, and finally macOS to align with Apple's other operating system nomenclatures (iOS, watchOS, tvOS)<sup>[1]</sup>, it is renowned for its elegant user interface, robust security features, strong Unix foundation, and seamless integration with Apple's hardware and ecosystem. macOS is the successor to the "classic" Mac OS, which was Apple's primary OS from 1984 until 2001<sup>[2]</sup>.
+macOS is the primary operating system developed and marketed by Apple Inc. for its Mac line of computers, including MacBooks, iMacs, Mac minis, and Mac Pros. Originally named Mac OS X, then OS X, and finally macOS to align with Apple's other operating system nomenclatures (iOS, watchOS, tvOS)[^1], it is renowned for its elegant user interface, robust security features, strong Unix foundation, and seamless integration with Apple's hardware and ecosystem. macOS is the successor to the "classic" Mac OS, which was Apple's primary OS from 1984 until 2001<sup>[2]</sup>.
 
 This document will delve into the various facets of macOS, exploring its history, core architecture, key features, development environment, security mechanisms, and its pivotal role within the broader Apple ecosystem.
 
@@ -674,9 +674,9 @@ flowchart LR
 
 
 ## References
-
+[^1]: Gurman, M. (2016, June 13). *OS X is dead, long live macOS*. Bloomberg. (Historically, numerous tech news sites covered this rebranding at WWDC 2016. Apple also updated its websites.) 
 <small>
-[1] Gurman, M. (2016, June 13). *OS X is dead, long live macOS*. Bloomberg. (Historically, numerous tech news sites covered this rebranding at WWDC 2016. Apple also updated its websites.) Example contemporary report: [TechCrunch article on macOS Sierra naming](https://techcrunch.com/2016/06/13/apple-rebrands-os-x-macos-announces-macos-sierra/)</small><br>
+Example contemporary report: [TechCrunch article on macOS Sierra naming](https://techcrunch.com/2016/06/13/apple-rebrands-os-x-macos-announces-macos-sierra/)</small><br>
 <small>[2] Apple Inc. (n.d.). *Apple History*. Retrieved from [Apple Newsroom History](https://www.apple.com/newsroom/history/)</small><br>
 <small>[3] Isaacson, W. (2011). *Steve Jobs*. Simon & Schuster. (Details the NeXT acquisition and its technology's role in OS X).</small><br>
 <small>[4] Siracusa, J. (2000, September 13). *Mac OS X Public Beta Review*. Ars Technica. Retrieved from [Ars Technica Archives](https://arstechnica.com/gadgets/2000/09/mac-os-x-public-beta/)</small><br>
