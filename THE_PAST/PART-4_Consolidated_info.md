@@ -311,11 +311,11 @@ mindmap
     Openness_and_Community))"🌍 Openness & Community"((
       ::icon(fa fa-globe)
       Unix: Early academic licenses fueled V6 spread & BSD innovations.
-      %% AI: Open models (BLOOM, Llama) & frameworks (PyTorch) accelerate research.
-      %% Rule: Consider open-source (MIT, Apache, OpenRAIL).
+      AI["🤖 AI 🧠:<br/> Open models (BLOOM, Llama) & frameworks (PyTorch) accelerate research"]
+      Rule["📋 Rule 📌:<br/>Consider open-source<br/>(MIT, Apache, OpenRAIL)"]
     Restrictive_Commercialization_Risks))"🧱 Restrictive Commercialization Risks"((
       ::icon(fa fa-store-slash)
-      Unix: "Unix Wars" due to incompatible, proprietary versions.
+      Unix["🐧 Unix 📜:<br/> **Unix Wars** due to incompatible, proprietary versions"]
       AI: Walled gardens, expensive APIs can stifle; risk fragmentation.
       Rule: Balance profit with fair access/interoperability.
     Power_of_Standardization))"⚙️ Power of Standardization"((
