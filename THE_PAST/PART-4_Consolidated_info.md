@@ -31,9 +31,6 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 
 
 
------
-
-
 ## ⏳ Visualizing the History of Unix: A Saga Unfolds
 
 The history of Unix is a rich tapestry of innovation, collaboration, and competition.
@@ -41,6 +38,41 @@ The history of Unix is a rich tapestry of innovation, collaboration, and competi
 ### Unix Major Milestones Timeline 🗓️
 
 ```mermaid
+---
+title: "The History of Unix: A Saga Unfolds"
+author: "Cong Le"
+version: "1.0"
+license(s): "MIT, CC BY-SA 4.0"
+copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
+config:
+  layout: elk
+  theme: base
+---
+%%%%%%%% Mermaid version v11.4.1-b.14
+%%{
+  init: {
+    'gantt': {
+      'titleTopMargin': 25,
+      'barHeight': 20,
+      'barGap': 5,
+      'topPadding': 75,
+      'rightPadding': 75,
+      'leftPadding': 75,
+      'gridLineStartPadding': 35,
+       'sectionFontSize': 15
+    },
+    'themeVariables': {
+      'primaryColor': '#F8B229',
+      'primaryTextColor': '#2BB',
+      'primaryBorderColor': '#27AE60',
+      'secondaryColor': '#EBDEF0',
+      'secondaryTextColor': '#6C3483',
+      'secondaryBorderColor': '#A569BD',
+      'fontSize': '20px'
+    },
+    'fontFamily': 'Bradley Hand'
+  }
+}%%
 gantt
     title Key Milestones in Unix History
     dateFormat  YYYY
