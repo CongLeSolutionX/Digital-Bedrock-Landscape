@@ -583,30 +583,30 @@ config:
   }
 }%%
 mindmap
-  root)"macOS: Comprehensive Summary"(
+  root)"**macOS**:<br/> *Comprehensive Summary*"(
     ::icon(fa fa-apple)
-    Definition))"Definition"((
+    Definition))"**Definition**"((
       Apple_desktop_OS["Apple's desktop OS for Mac"]
-      Unix-based["Unix-based (Darwin/XNU)<sup>[15][16]</sup>"]
-    History))"History"((
+      Unix-based["Unix-based<br/>(Darwin/XNU)<sup>[15][16]</sup>"]
+    History))"**History**"((
       Transitions["Mac OS X -> OS X -> macOS<sup>[1]</sup>"]
       Key_Versions_and_Transitions["Key Versions & Transitions (PowerPC->Intel, Intel->Apple Silicon<sup>[13]</sup>)"]
-    Core_Architecture))"Core Architecture"((
+    Core_Architecture))"**Core Architecture**"((
       Layered["Layered: UI -> App Frameworks -> Core Services -> Darwin"]
       Frameworks["Frameworks: Cocoa<sup>[21]</sup>, SwiftUI<sup>[22]</sup>"]
       File_System["File System: APFS<sup>[18]</sup>"]
-    Key_Features))"Key Features"((
+    Key_Features))"**Key Features**"((
       Some_Key_Features["Aqua UI, Spotlight<sup>[6]</sup>, Time Machine<sup>[7]</sup>"]
       Continuity_Suite["Continuity Suite<sup>[25]</sup>"]
       iCloud_Integration["iCloud Integration<sup>[26]</sup>"]
-    Development))"Development"((
+    Development))"**Development**"((
       Xcode_IDE["Xcode IDE<sup>[29]</sup>, Swift<sup>[30]</sup>"]
-    Security_and_Privacy))"Security & Privacy<sup>[28]</sup>"((
-      Hardware["Hardware: Secure Enclave"]
-      System["System: SIP, Gatekeeper"]
-      Data["Data: FileVault"]
-      Application["Application: Sandboxing<sup>[31]</sup>"]
-    Ecosystem_Integration))"Ecosystem Integration"((
+    Security_and_Privacy))"**Security & Privacy**<sup>[28]</sup>"((
+      Hardware["Hardware:<br/>Secure Enclave"]
+      System["System:<br/>SIP, Gatekeeper"]
+      Data["Data:<br/>FileVault"]
+      Application["Application:<br/>Sandboxing<sup>[31]</sup>"]
+    Ecosystem_Integration))"**Ecosystem Integration**"((
       Seamless_with_others["Seamless with iOS, iPadOS, etc."]
     Strengths))"Strengths"((
       Some_strengths["User Experience, Stability, Security, Ecosystem Synergy"]
