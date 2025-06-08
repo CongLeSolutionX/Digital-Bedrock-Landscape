@@ -680,7 +680,7 @@ flowchart LR
 [^4]: ~Siracusa, J. (2000, September 13). *Mac OS X Public Beta Review*. Ars Technica. Retrieved from [Ars Technica Archives](https://arstechnica.com/gadgets/2000/09/mac-os-x-public-beta/)~ No long publicly accessible
 [^5]: Apple Inc. (2001, March 21). *Mac OS X Hits Stores This Weekend*. [Apple Newsroom PR](https://www.apple.com/newsroom/2001/03/21Mac-OS-X-Hits-Stores-This-Weekend/)
 [^6]: Apple Inc. (2005, April 12). *Apple to Ship Mac OS X "Tiger" on April 29*. [Apple Newsroom PR](https://www.apple.com/newsroom/2005/04/12Apple-to-Ship-Mac-OS-X-Tiger-on-April-29/)
-[^7]: Apple Inc. (2007, October 16). *Mac OS X Leopard To Ship October 26*. [Apple Newsroom PR](https://www.apple.com/newsroom/2007/10/16Mac-OS-X-Leopard-To-Ship-October-26/)
+[^7]: ~Apple Inc. (2007, October 16). *Mac OS X Leopard To Ship October 26*. [Apple Newsroom PR](https://www.apple.com/newsroom/2007/10/16Mac-OS-X-Leopard-To-Ship-October-26/)~ No long publicly accessible
 [^8]: Apple Inc. (2009, August 24). *Mac OS X Snow Leopard Available August 28*. [Apple Developer News Archive (or similar official source if Newsroom link is elusive for older releases)]
 [^9]: Apple Inc. (2013, October 22). *OS X Mavericks Available Today Free from the Mac App Store*. [Apple Newsroom PR](https://www.apple.com/newsroom/2013/10/22OS-X-Mavericks-Available-Today-Free-from-the-Mac-App-Store/)
 [^10]: Apple Inc. (2014, October 16). *OS X Yosemite Available Today as a Free Upgrade*. [Apple Newsroom PR](https://www.apple.com/newsroom/2014/10/16OS-X-Yosemite-Available-Today-as-a-Free-Upgrade/)
