@@ -242,7 +242,7 @@ mindmap
       ::icon(fa fa-cog)
       Description: Devices treated as files
       Impact: Unified I/O model, abstraction
-      %% Example["Example: **cat /dev/random > /dev/null**"]
+      %% Example["Example: `cat /dev/random > /dev/null` "]
     The_C_Programming_Language))"The C Programming Language 🎯"((
       ::icon(fa fa-bullseye)
       Description: High-level, efficient system programming language
@@ -258,7 +258,7 @@ mindmap
       ::icon(fa fa-keyboard)
       Description: User interaction, scripting
       Impact: Programmable environment, automation
-      %% Example["Example:<br/> **sh**, **bash**, **csh**"]
+      Example["Example: **sh**, **bash**, **csh**"]
     Multi_user_and_Time_sharing))"Multi-user & <br/> Time-sharing 👨‍👩‍👧‍👦"((
       ::icon(fa fa-users)
       Description: Concurrent users on one system
