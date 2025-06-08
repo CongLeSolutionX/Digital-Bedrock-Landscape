@@ -685,11 +685,13 @@ flowchart LR
 [^9]: Apple Inc. (2013, October 22). *OS X Mavericks Available Today Free from the Mac App Store*. [Apple Newsroom PR](https://www.apple.com/newsroom/2013/10/22OS-X-Mavericks-Available-Today-Free-from-the-Mac-App-Store/)
 [^10]: Apple Inc. (2014, October 16). *OS X Yosemite Available Today as a Free Upgrade*. [Apple Newsroom PR](https://www.apple.com/newsroom/2014/10/16OS-X-Yosemite-Available-Today-as-a-Free-Upgrade/)
 [^11]: Apple Inc. (2017, June 5). *macOS High Sierra advances platform technologies, introduces new experiences*. [Apple Newsroom PR (initial announcement, APFS details often in developer docs too)](https://www.apple.com/newsroom/2017/06/macos-high-sierra-advances-platform-technologies/)
+[^12]: Apple Inc. (2019). *32-bit app compatibility with macOS High Sierra 10.13.4 and later*. [Apple Support HT208436](https://support.apple.com/en-us/HT208436). (Catalina was the version that fully removed support).
+[^13]: Apple Inc. (2020, November 10). *Introducing the next generation of Mac*. [Apple Newsroom PR](https://www.apple.com/newsroom/2020/11/introducing-the-next-generation-of-mac/)
+[^14]: Apple Inc. (2023, September 26). *macOS Sonoma is available today*. [Apple Newsroom PR](https://www.apple.com/newsroom/2023/09/macos-sonoma-is-available-today/)
 
 <small>Example contemporary report: [TechCrunch article on macOS Sierra naming](https://techcrunch.com/2016/06/13/apple-rebrands-os-x-macos-announces-macos-sierra/)</small><br>
-<small>[12] Apple Inc. (2019). *32-bit app compatibility with macOS High Sierra 10.13.4 and later*. [Apple Support HT208436](https://support.apple.com/en-us/HT208436). (Catalina was the version that fully removed support).</small><br>
-<small>[13] Apple Inc. (2020, November 10). *Introducing the next generation of Mac*. [Apple Newsroom PR](https://www.apple.com/newsroom/2020/11/introducing-the-next-generation-of-mac/)</small><br>
-<small>[14] Apple Inc. (2023, September 26). *macOS Sonoma is available today*. [Apple Newsroom PR](https://www.apple.com/newsroom/2023/09/macos-sonoma-is-available-today/)</small><br>
+
+
 <small>[15] Apple Inc. (n.d.). *Darwin Open Source*. Retrieved from [opensource.apple.com/source/Darwin/](https://opensource.apple.com/)</small><br>
 <small>[16] Singh, A. (2006). *Mac OS X Internals: A Systems Approach*. Addison-Wesley Professional. (A detailed technical book, can also reference Apple Kernel Programming Guide if available).</small><br>
 <small>[17] Apple Inc. (n.d.). *I/O Kit Fundamentals*. [Apple Developer Documentation](https://developer.apple.com/library/archive/documentation/DeviceDrivers/Conceptual/IOKitFundamentals/ทำความเข้าใจIOKit/ทำความเข้าใจIOKit.html) (Archived, but principles hold).</small><br>
