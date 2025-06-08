@@ -677,7 +677,7 @@ flowchart LR
 [^1]: Gurman, M. (2016, June 13). *OS X is dead, long live macOS*. Bloomberg. (Historically, numerous tech news sites covered this rebranding at WWDC 2016. Apple also updated its websites.) 
 [^2]: ~Apple Inc. (n.d.). *Apple History*. Retrieved from [Apple Newsroom History](https://www.apple.com/newsroom/history/)~ No long publicly accessible
 [^3]: Isaacson, W. (2011). *Steve Jobs*. Simon & Schuster. (Details the NeXT acquisition and its technology's role in OS X).
-[^4]: Siracusa, J. (2000, September 13). *Mac OS X Public Beta Review*. Ars Technica. Retrieved from [Ars Technica Archives](https://arstechnica.com/gadgets/2000/09/mac-os-x-public-beta/)
+[^4]: ~Siracusa, J. (2000, September 13). *Mac OS X Public Beta Review*. Ars Technica. Retrieved from [Ars Technica Archives](https://arstechnica.com/gadgets/2000/09/mac-os-x-public-beta/)~ No long publicly accessible
 [^5]: Apple Inc. (2001, March 21). *Mac OS X Hits Stores This Weekend*. [Apple Newsroom PR](https://www.apple.com/newsroom/2001/03/21Mac-OS-X-Hits-Stores-This-Weekend/)
 [^6]: Apple Inc. (2005, April 12). *Apple to Ship Mac OS X "Tiger" on April 29*. [Apple Newsroom PR](https://www.apple.com/newsroom/2005/04/12Apple-to-Ship-Mac-OS-X-Tiger-on-April-29/)
 [^7]: Apple Inc. (2007, October 16). *Mac OS X Leopard To Ship October 26*. [Apple Newsroom PR](https://www.apple.com/newsroom/2007/10/16Mac-OS-X-Leopard-To-Ship-October-26/)
