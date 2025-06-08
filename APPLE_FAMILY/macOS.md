@@ -96,20 +96,20 @@ The journey of macOS is a story of innovation, transformation, and resilience. I
 **Key Milestones:**
 
 *   **Classic Mac OS (1984-2001):** Pioneered GUIs, but its cooperative multitasking and memory management became outdated.
-*   **Mac OS X Public Beta "Kodiak" (2000):** First public look at the new OS, featuring the "Aqua" interface<sup>[4]</sup>.
-*   **Mac OS X 10.0 "Cheetah" (March 24, 2001):** The official launch, based on the Darwin (XNU kernel) foundation<sup>[5]</sup>.
-*   **Significant Cat-themed Versions (2001-2012):** Versions like Puma, Jaguar, Panther, **Tiger (10.4)** which introduced Spotlight and Dashboard<sup>[6]</sup>, and **Leopard (10.5)** which brought Time Machine, Spaces, and was the first to support Intel processors officially<sup>[7]</sup>. **Snow Leopard (10.6)** focused on performance, efficiency, and 64-bit support<sup>[8]</sup>.
+*   **Mac OS X Public Beta "Kodiak" (2000):** First public look at the new OS, featuring the "Aqua" interface[^4].
+*   **Mac OS X 10.0 "Cheetah" (March 24, 2001):** The official launch, based on the Darwin (XNU kernel) foundation[^5].
+*   **Significant Cat-themed Versions (2001-2012):** Versions like Puma, Jaguar, Panther, **Tiger (10.4)** which introduced Spotlight and Dashboard[^6], and **Leopard (10.5)** which brought Time Machine, Spaces, and was the first to support Intel processors officially[^7]. **Snow Leopard (10.6)** focused on performance, efficiency, and 64-bit support<sup>[8]</sup>.
 *   **OS X (2012-2016):** Renaming. Versions themed after California locations.
-    *   **Mavericks (10.9, October 22, 2013):** First free major upgrade<sup>[9]</sup>. Introduced Maps and iBooks.
-    *   **Yosemite (10.10, October 16, 2014):** Major redesign with a flatter, more modern UI; introduced Continuity features<sup>[10]</sup>.
-*   **macOS (2016-Present):** Renamed to align with other Apple OSes (iOS, watchOS, tvOS) starting with Sierra<sup>[1]</sup>.
+    *   **Mavericks (10.9, October 22, 2013):** First free major upgrade[^9]. Introduced Maps and iBooks.
+    *   **Yosemite (10.10, October 16, 2014):** Major redesign with a flatter, more modern UI; introduced Continuity features[^10].
+*   **macOS (2016-Present):** Renamed to align with other Apple OSes (iOS, watchOS, tvOS) starting with Sierra[^1].
     *   **Sierra (10.12):** Introduced Siri to the Mac.
-    *   **High Sierra (10.13):** Introduced APFS (Apple File System) as the default for SSDs<sup>[11]</sup>.
-    *   **Catalina (10.15):** Dropped 32-bit app support<sup>[12]</sup>; introduced Sidecar.
-    *   **Big Sur (11.0, November 12, 2020):** Major redesign with a more iOS-like feel; first version to support Apple Silicon (M1 chip)<sup>[13]</sup>. This marked a significant version number jump.
+    *   **High Sierra (10.13):** Introduced APFS (Apple File System) as the default for SSDs[^11].
+    *   **Catalina (10.15):** Dropped 32-bit app support[^12]; introduced Sidecar.
+    *   **Big Sur (11.0, November 12, 2020):** Major redesign with a more iOS-like feel; first version to support Apple Silicon (M1 chip)[^13]. This marked a significant version number jump.
     *   **Monterey (12.0):** Introduced Universal Control, Shortcuts app.
     *   **Ventura (13.0):** Introduced Stage Manager, Continuity Camera.
-    *   **Sonoma (14.0, September 26, 2023):** Introduced Desktop Widgets, Game Mode, new screen savers<sup>[14]</sup>.
+    *   **Sonoma (14.0, September 26, 2023):** Introduced Desktop Widgets, Game Mode, new screen savers[^14].
 
 ```mermaid
 ---
@@ -677,16 +677,16 @@ flowchart LR
 [^1]: Gurman, M. (2016, June 13). *OS X is dead, long live macOS*. Bloomberg. (Historically, numerous tech news sites covered this rebranding at WWDC 2016. Apple also updated its websites.) 
 [^2]: Apple Inc. (n.d.). *Apple History*. Retrieved from [Apple Newsroom History](https://www.apple.com/newsroom/history/)
 [^3]: Isaacson, W. (2011). *Steve Jobs*. Simon & Schuster. (Details the NeXT acquisition and its technology's role in OS X).
+[^4]: Siracusa, J. (2000, September 13). *Mac OS X Public Beta Review*. Ars Technica. Retrieved from [Ars Technica Archives](https://arstechnica.com/gadgets/2000/09/mac-os-x-public-beta/)
+[^5]: Apple Inc. (2001, March 21). *Mac OS X Hits Stores This Weekend*. [Apple Newsroom PR](https://www.apple.com/newsroom/2001/03/21Mac-OS-X-Hits-Stores-This-Weekend/)
+[^6]: Apple Inc. (2005, April 12). *Apple to Ship Mac OS X "Tiger" on April 29*. [Apple Newsroom PR](https://www.apple.com/newsroom/2005/04/12Apple-to-Ship-Mac-OS-X-Tiger-on-April-29/)
+[^7]: Apple Inc. (2007, October 16). *Mac OS X Leopard To Ship October 26*. [Apple Newsroom PR](https://www.apple.com/newsroom/2007/10/16Mac-OS-X-Leopard-To-Ship-October-26/)
+[^8]: Apple Inc. (2009, August 24). *Mac OS X Snow Leopard Available August 28*. [Apple Developer News Archive (or similar official source if Newsroom link is elusive for older releases)]
+[^9]: Apple Inc. (2013, October 22). *OS X Mavericks Available Today Free from the Mac App Store*. [Apple Newsroom PR](https://www.apple.com/newsroom/2013/10/22OS-X-Mavericks-Available-Today-Free-from-the-Mac-App-Store/)
+[^10]: Apple Inc. (2014, October 16). *OS X Yosemite Available Today as a Free Upgrade*. [Apple Newsroom PR](https://www.apple.com/newsroom/2014/10/16OS-X-Yosemite-Available-Today-as-a-Free-Upgrade/)
+[^11]: Apple Inc. (2017, June 5). *macOS High Sierra advances platform technologies, introduces new experiences*. [Apple Newsroom PR (initial announcement, APFS details often in developer docs too)](https://www.apple.com/newsroom/2017/06/macos-high-sierra-advances-platform-technologies/)
 
 <small>Example contemporary report: [TechCrunch article on macOS Sierra naming](https://techcrunch.com/2016/06/13/apple-rebrands-os-x-macos-announces-macos-sierra/)</small><br>
-<small>[4] Siracusa, J. (2000, September 13). *Mac OS X Public Beta Review*. Ars Technica. Retrieved from [Ars Technica Archives](https://arstechnica.com/gadgets/2000/09/mac-os-x-public-beta/)</small><br>
-<small>[5] Apple Inc. (2001, March 21). *Mac OS X Hits Stores This Weekend*. [Apple Newsroom PR](https://www.apple.com/newsroom/2001/03/21Mac-OS-X-Hits-Stores-This-Weekend/)</small><br>
-<small>[6] Apple Inc. (2005, April 12). *Apple to Ship Mac OS X "Tiger" on April 29*. [Apple Newsroom PR](https://www.apple.com/newsroom/2005/04/12Apple-to-Ship-Mac-OS-X-Tiger-on-April-29/)</small><br>
-<small>[7] Apple Inc. (2007, October 16). *Mac OS X Leopard To Ship October 26*. [Apple Newsroom PR](https://www.apple.com/newsroom/2007/10/16Mac-OS-X-Leopard-To-Ship-October-26/)</small><br>
-<small>[8] Apple Inc. (2009, August 24). *Mac OS X Snow Leopard Available August 28*. [Apple Developer News Archive (or similar official source if Newsroom link is elusive for older releases)]</small><br>
-<small>[9] Apple Inc. (2013, October 22). *OS X Mavericks Available Today Free from the Mac App Store*. [Apple Newsroom PR](https://www.apple.com/newsroom/2013/10/22OS-X-Mavericks-Available-Today-Free-from-the-Mac-App-Store/)</small><br>
-<small>[10] Apple Inc. (2014, October 16). *OS X Yosemite Available Today as a Free Upgrade*. [Apple Newsroom PR](https://www.apple.com/newsroom/2014/10/16OS-X-Yosemite-Available-Today-as-a-Free-Upgrade/)</small><br>
-<small>[11] Apple Inc. (2017, June 5). *macOS High Sierra advances platform technologies, introduces new experiences*. [Apple Newsroom PR (initial announcement, APFS details often in developer docs too)](https://www.apple.com/newsroom/2017/06/macos-high-sierra-advances-platform-technologies/)</small><br>
 <small>[12] Apple Inc. (2019). *32-bit app compatibility with macOS High Sierra 10.13.4 and later*. [Apple Support HT208436](https://support.apple.com/en-us/HT208436). (Catalina was the version that fully removed support).</small><br>
 <small>[13] Apple Inc. (2020, November 10). *Introducing the next generation of Mac*. [Apple Newsroom PR](https://www.apple.com/newsroom/2020/11/introducing-the-next-generation-of-mac/)</small><br>
 <small>[14] Apple Inc. (2023, September 26). *macOS Sonoma is available today*. [Apple Newsroom PR](https://www.apple.com/newsroom/2023/09/macos-sonoma-is-available-today/)</small><br>
