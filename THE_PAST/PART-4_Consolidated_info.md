@@ -126,6 +126,9 @@ gantt
 
 This diagram illustrates the main branches and influences in the Unix family:
 
+<details open>
+<summary>Click to show/hide the full native DOT implementation with comment documentation.</summary>
+
 ```dot
 digraph UnixLineage {
     rankdir="TB";
@@ -193,6 +196,9 @@ digraph UnixLineage {
     Research_Unix -> GNU_Project [style=dotted, label=" philosophy inspired"];
 }
 ```
+
+</details>
+
 
 ### Core Unix Innovations & Their Significance 💡
 
@@ -340,6 +346,10 @@ Drawing from Unix's historical IP and commercialization lessons, blockchain tech
 
 ### AI Challenges & Blockchain-Powered Potential Solutions 💡🔗
 
+<details open>
+<summary>Click to show/hide the full native DOT implementation with comment documentation.</summary>
+
+
 ```dot
 digraph AI_Blockchain_Solutions {
     rankdir=LR;
@@ -390,6 +400,10 @@ digraph AI_Blockchain_Solutions {
 }
 ```
 
+</details>
+
+
+
 ### Simplified Flow: Minting & Licensing AI Art with NFTs 🖼️➡️🔗
 
 ```mermaid
@@ -424,7 +438,7 @@ config:
 }%%
 sequenceDiagram
     actor User as 🧑‍🎨 User/Creator
-	box rgb(202, 12, 22) The Platform Ecosystem
+	box rgb(202, 12, 22, 0.1) The Platform Ecosystem
     	participant AIP_Platform as 🤖 AI Art Platform
     	participant Blockchain as 🔗 Blockchain <br/>(e.g., Ethereum)
     	participant Marketplace as 🛒 NFT Marketplace
@@ -516,8 +530,6 @@ flowchart LR
   My_Meme animatingEdge@--> Link_to_my_profile
   
   animatingEdge@{ animate: true }
-
-
 
 ```
 
