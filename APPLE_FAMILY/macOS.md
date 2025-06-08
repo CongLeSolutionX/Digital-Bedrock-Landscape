@@ -455,19 +455,19 @@ mindmap
       T2_Chip_Secure_Enclave["T2 Chip /<br/> Secure Enclave"]
         Secure Boot
         Encrypted Storage Controller
-    System_Integrity))"System Integrity"((
+    System_Integrity))"**System Integrity**"((
       SIP["System Integrity Protection<br/>(SIP)"]
       Read_only_System_Volume["Read-only System Volume"]
-    Malware_Protection))"Malware Protection"((
+    Malware_Protection))"**Malware Protection**"((
       Gatekeeper & Notarization
       XProtect & MRT
-    Data_Protection))"Data Protection"((
+    Data_Protection))"**Data Protection**"((
       FileVault_2["FileVault 2<br/>(Full-disk encryption)"]
       APFS Encryption
-    Application_Security))"Application Security"((
+    Application_Security))"**Application Security**"((
       App_Sandboxing["App Sandboxing<sup>[31]</sup>"]
       Code Signing
-    User_Privacy))"User Privacy"((
+    User_Privacy))"**User Privacy**"((
       Permissions["Permissions<br/>(TCC Framework)"]
       Safari_Privacy_Features["Safari Privacy Features"]
 ```
