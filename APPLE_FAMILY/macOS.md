@@ -91,7 +91,7 @@ mindmap
 
 ## 2. History and Evolution of macOS
 
-The journey of macOS is a story of innovation, transformation, and resilience. It began with the "classic" Mac OS, which revolutionized personal computing with its graphical user interface (GUI)<sup>[2]</sup>. However, by the late 1990s, it faced limitations in performance and modern OS features. This led Apple to acquire NeXT Inc. in 1997, bringing Steve Jobs back to Apple and laying the foundation for Mac OS X with NeXTSTEP's robust, Unix-based core<sup>[3]</sup>.
+The journey of macOS is a story of innovation, transformation, and resilience. It began with the "classic" Mac OS, which revolutionized personal computing with its graphical user interface (GUI)[^2]. However, by the late 1990s, it faced limitations in performance and modern OS features. This led Apple to acquire NeXT Inc. in 1997, bringing Steve Jobs back to Apple and laying the foundation for Mac OS X with NeXTSTEP's robust, Unix-based core[^3].
 
 **Key Milestones:**
 
@@ -676,9 +676,9 @@ flowchart LR
 ## References
 [^1]: Gurman, M. (2016, June 13). *OS X is dead, long live macOS*. Bloomberg. (Historically, numerous tech news sites covered this rebranding at WWDC 2016. Apple also updated its websites.) 
 [^2]: Apple Inc. (n.d.). *Apple History*. Retrieved from [Apple Newsroom History](https://www.apple.com/newsroom/history/)
-<small>
-Example contemporary report: [TechCrunch article on macOS Sierra naming](https://techcrunch.com/2016/06/13/apple-rebrands-os-x-macos-announces-macos-sierra/)</small><br>
-<small>[3] Isaacson, W. (2011). *Steve Jobs*. Simon & Schuster. (Details the NeXT acquisition and its technology's role in OS X).</small><br>
+[^3]: Isaacson, W. (2011). *Steve Jobs*. Simon & Schuster. (Details the NeXT acquisition and its technology's role in OS X).
+
+<small>Example contemporary report: [TechCrunch article on macOS Sierra naming](https://techcrunch.com/2016/06/13/apple-rebrands-os-x-macos-announces-macos-sierra/)</small><br>
 <small>[4] Siracusa, J. (2000, September 13). *Mac OS X Public Beta Review*. Ars Technica. Retrieved from [Ars Technica Archives](https://arstechnica.com/gadgets/2000/09/mac-os-x-public-beta/)</small><br>
 <small>[5] Apple Inc. (2001, March 21). *Mac OS X Hits Stores This Weekend*. [Apple Newsroom PR](https://www.apple.com/newsroom/2001/03/21Mac-OS-X-Hits-Stores-This-Weekend/)</small><br>
 <small>[6] Apple Inc. (2005, April 12). *Apple to Ship Mac OS X "Tiger" on April 29*. [Apple Newsroom PR](https://www.apple.com/newsroom/2005/04/12Apple-to-Ship-Mac-OS-X-Tiger-on-April-29/)</small><br>
