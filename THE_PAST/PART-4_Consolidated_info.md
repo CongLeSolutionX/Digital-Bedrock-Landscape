@@ -424,9 +424,11 @@ config:
 }%%
 sequenceDiagram
     actor User as 🧑‍🎨 User/Creator
-    participant AIP_Platform as 🤖 AI Art Platform
-    participant Blockchain as 🔗 Blockchain <br/>(e.g., Ethereum)
-    participant Marketplace as 🛒 NFT Marketplace
+	box rgb(202, 12, 22) The Platform Ecosystem
+    	participant AIP_Platform as 🤖 AI Art Platform
+    	participant Blockchain as 🔗 Blockchain <br/>(e.g., Ethereum)
+    	participant Marketplace as 🛒 NFT Marketplace
+	end
     actor Buyer as 💰 Buyer
 
     User->>AIP_Platform: Generates AI artwork <br/>(Prompt: "Epic Cat on Mars")
