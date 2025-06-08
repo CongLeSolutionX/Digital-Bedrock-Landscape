@@ -305,8 +305,8 @@ mindmap
   root)"Unix Lessons for AI Era"(
     IP_Ownership_Clarity))"🏛️ IP Ownership Clarity"((
       ::icon(fa fa-landmark)
-      Unix: SCO vs. Novell lawsuits (copyright chaos)
-      AI: Crucial for models, training data, generated content licenses.
+      Unix["🐧 Unix 📜:<br/>SCO vs. Novell lawsuits<br/>(copyright chaos)"]
+      AI["🤖 AI 🧠:<br/>Crucial for models, training data, generated content licenses"]
       %% Rule: Explicitly define rights! $$\\mathcal{L}_{AI} = f(\text{data}, \text{model}, \text{output})$$
     Openness_and_Community))"🌍 Openness & Community"((
       ::icon(fa fa-globe)
