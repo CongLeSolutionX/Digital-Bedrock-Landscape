@@ -232,34 +232,34 @@ config:
   }
 }%%
 mindmap
-  root((Unix Core Innovations))
-    (Hierarchical File System 📂)
+  root)"Unix Core Innovations"(
+    Hierarchical_File_System))"Hierarchical File System 📂"((
       ::icon(fa fa-folder-tree)
       Description: Tree-like directory structure
       Impact: Intuitive organization, path-based addressing
-      Example: `/usr/bin/grep`
-    ("Device Files<br/>(<code>/dev</code>) ⚙️")
+      Example["Example: **/usr/bin/grep**"]
+    Device_Files))"Device Files<br/>(<code>/dev</code>) ⚙️"((
       ::icon(fa fa-cog)
       Description: Devices treated as files
       Impact: Unified I/O model, abstraction
-      Example: `cat /dev/random > /dev/null`
-    ("The C Programming Language 🎯")
+      Example["Example: **cat /dev/random > /dev/null**"]
+    The_C_Programming_Language))"The C Programming Language 🎯"((
       ::icon(fa fa-bullseye)
       Description: High-level, efficient system programming language
       Impact: Portability of Unix, easier development
-      Equation: *Enabled efficient OS code like:*\
-      %% `while ((c = getchar()) != EOF)`
-    ("Pipes <char>|</char> 💧")
+      Equation["Equation: *Enabled efficient OS code like:*"]
+      Example["**while ((c = getchar()) != EOF)**"]
+    Pipes))"Pipes <char>|</char> 💧"((
       ::icon(fa fa-water)
       Description: Chain commands, output of one is input to next
       Impact: Small, single-purpose tools, powerful compositions
-      Example: `ls -l | grep ".txt" | wc -l`
-    ("Shell (Command Line Interface) ⌨️")
+      Example["Example:<br/> **ls -l | grep ".txt" | wc -l**"]
+    Shell))"Shell<br/>(Command Line Interface) ⌨️"((
       ::icon(fa fa-keyboard)
       Description: User interaction, scripting
       Impact: Programmable environment, automation
-      Example: `sh`, `bash`, `csh`
-    ("Multi-user &<br/> Time-sharing 👨‍👩‍👧‍👦")
+      Example["Example:<br/> **sh**, **bash**, **csh**"]
+    Multi_user_and_Time_sharing))"Multi-user & <br/> Time-sharing 👨‍👩‍👧‍👦"((
       ::icon(fa fa-users)
       Description: Concurrent users on one system
       Impact: Efficient resource use, collaborative computing
