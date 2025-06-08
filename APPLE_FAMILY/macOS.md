@@ -70,13 +70,13 @@ config:
   }
 }%%
 mindmap
-  root)"macOS Core Concept"(
+  root)"**macOS Core Concept**"(
     ::icon(fa fa-apple)
-    Intro))"Intro"((
+    Intro))"**Intro**"((
       Definition
       Significance["Significance<sup>[Apple About]</sup>"]
       Target_Hardware["Target Hardware<br/>(Macs)"]
-    Key_Aspects))"Key Aspects"((
+    Key_Aspects))"**Key Aspects**"((
       History & Evolution
       Core Architecture
       User_Interface["User Interface<br/>(Aqua)"]
