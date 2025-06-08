@@ -307,7 +307,7 @@ mindmap
       ::icon(fa fa-landmark)
       Unix["🐧 Unix 📜:<br/>SCO vs. Novell lawsuits<br/>(copyright chaos)"]
       AI["🤖 AI 🧠:<br/>Crucial for models, training data, generated content licenses"]
-      %% Rule: Explicitly define rights! $$\\mathcal{L}_{AI} = f(\text{data}, \text{model}, \text{output})$$
+      Rule["📋 Rule 📌:<br/> Explicitly define rights! $$\\mathcal{L}_{AI} = f(\text{data}, \text{model}, \text{output})$$"]
     Openness_and_Community))"🌍 Openness & Community"((
       ::icon(fa fa-globe)
       Unix["🐧 Unix 📜:<br/> Early academic licenses fueled V6 spread & BSD innovations"]
@@ -316,28 +316,28 @@ mindmap
     Restrictive_Commercialization_Risks))"🧱 Restrictive Commercialization Risks"((
       ::icon(fa fa-store-slash)
       Unix["🐧 Unix 📜:<br/> **Unix Wars** due to incompatible, proprietary versions"]
-      AI: Walled gardens, expensive APIs can stifle; risk fragmentation.
-      Rule: Balance profit with fair access/interoperability.
+      AI["🤖 AI 🧠:<br/> Walled gardens, expensive APIs can stifle; risk fragmentation"]
+      Rule["📋 Rule 📌:<br/> Balance profit with fair access/interoperability"]
     Power_of_Standardization))"⚙️ Power of Standardization"((
       ::icon(fa fa-cogs)
       Unix["🐧 Unix 📜:<br/> POSIX, SVID reduced chaos, promoted portability"]
-      %% AI: Needed for model formats (ONNX), APIs, data interchange, ethics.
-      Rule: Support/contribute to open standards.
+      AI["🤖 AI 🧠:<br/> Needed for model formats (ONNX), APIs, data interchange, ethics"]
+      Rule["📋 Rule 📌:<br/> Support/contribute to open standards"]
     FOSS_Disruption))"🐧 FOSS Disruption"((
       ::icon(fa fa-linux)
       Unix["🐧 Unix 📜:<br/> GNU/Linux offered powerful, free alternatives"]
-      AI: Open-source AI models providing vital alternatives to proprietary ones.
-      Rule: Leverage & contribute to FOSS AI.
+      AI["🤖 AI 🧠:<br/> Open-source AI models providing vital alternatives to proprietary ones"]
+      Rule["📋 Rule 📌:<br/> Leverage & contribute to FOSS AI"]
     Source_Code_Model_Access_Value))"📖 Source Code / Model Access Value"((
       ::icon(fa fa-book-open)
       Unix["🐧 Unix 📜:<br/>V6 source helped learning & porting"]
-      AI["AI:<br/>Access to model architectures/weights crucial for research, bias detection, fine-tuning"]
-      Rule["Rule:<br/> **Open (ish) box** > **black box**"]
+      AI["🤖 AI 🧠:<br/>Access to model architectures/weights crucial for research, bias detection, fine-tuning"]
+      Rule["📋 Rule 📌:<br/> **Open (ish) box** > **black box**"]
     Trademarks_vs_Copyrights))"™️ Trademarks vs. © Copyrights"((
       ::icon(fa fa-registered)
-      Unix["🐧 Unix 📜:<br/> **UNIX** trademark (Open Group) <br/>vs.<br/> code copyrights (Novell for AT&T's)."]
-      AI["AI:<br/> Distinction needed for branding AI systems <br/>vs.<br/> owning underlying model/data IP"]
-      Rule: Understand and use both strategically.
+      Unix["🐧 Unix 📜:<br/> **UNIX** trademark (Open Group) <br/>vs.<br/> code copyrights (Novell for AT&T's)"]
+      AI["🤖 AI 🧠:<br/> Distinction needed for branding AI systems <br/>vs.<br/> owning underlying model/data IP"]
+      Rule["📋 Rule 📌:<br/> Understand and use both strategically"]
 ```
 
 ## 🔗 Blockchain's Potential for AI Era Quandaries: Bridging Gaps ⛓️
