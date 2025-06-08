@@ -172,17 +172,17 @@ gantt
 
 macOS boasts a layered architecture, combining the stability and power of a Unix-like core with high-level frameworks that enable rich application development and a user-friendly interface.
 
-*   **Darwin (Core OS Layer):** The foundation of macOS. It's an open-source, Unix-like operating system<sup>[15]</sup>.
-    *   **XNU Kernel:** A hybrid kernel combining Mach microkernel principles (IPC, virtual memory, task scheduling) with BSD components (POSIX API, networking stack, file systems)<sup>[16]</sup>. This provides preemptive multitasking and protected memory.
+*   **Darwin (Core OS Layer):** The foundation of macOS. It's an open-source, Unix-like operating system[^15].
+    *   **XNU Kernel:** A hybrid kernel combining Mach microkernel principles (IPC, virtual memory, task scheduling) with BSD components (POSIX API, networking stack, file systems)[^16]. This provides preemptive multitasking and protected memory.
     *   **Device Drivers (I/O Kit):** An object-oriented framework for writing device drivers<sup>[17]</sup>.
 *   **Core Services & Graphics/Media Layer:**
-    *   **File Systems:** Historically HFS+, now predominantly **APFS (Apple File System)**, optimized for SSDs and featuring strong encryption, space sharing, snapshots, and crash protection<sup>[11]</sup><sup>[18]</sup>.
-    *   **Metal:** Apple's low-level, low-overhead API for GPU programming, powering graphics and compute tasks<sup>[19]</sup>.
-    *   **Core ML:** For integrating machine learning models into apps<sup>[20]</sup>.
+    *   **File Systems:** Historically HFS+, now predominantly **APFS (Apple File System)**, optimized for SSDs and featuring strong encryption, space sharing, snapshots, and crash protection[^11][^18].
+    *   **Metal:** Apple's low-level, low-overhead API for GPU programming, powering graphics and compute tasks[^19].
+    *   **Core ML:** For integrating machine learning models into apps[^20].
 *   **Application Frameworks Layer:**
-    *   **Cocoa:** The primary object-oriented application environment for macOS, consisting of AppKit and Foundation<sup>[21]</sup>.
-    *   **SwiftUI:** A modern, declarative UI framework for all Apple platforms<sup>[22]</sup>.
-    *   **Catalyst (Project Catalyst):** Allows developers to bring their iPad apps built with UIKit to macOS<sup>[23]</sup>.
+    *   **Cocoa:** The primary object-oriented application environment for macOS, consisting of AppKit and Foundation[^21].
+    *   **SwiftUI:** A modern, declarative UI framework for all Apple platforms[^22].
+    *   **Catalyst (Project Catalyst):** Allows developers to bring their iPad apps built with UIKit to macOS[^23].
 *   **User Interface Layer (Aqua):** The graphical user interface known for elements like the Dock, Menu Bar, and Finder.
 
 ```mermaid
@@ -264,14 +264,14 @@ flowchart TD
 
 macOS is packed with features designed to enhance productivity, creativity, and user experience.
 
-*   **Spotlight Search:** A system-wide search feature<sup>[6]</sup>.
-*   **Time Machine:** An automatic backup utility<sup>[7]</sup>.
-*   **App Store:** Apple's digital distribution platform<sup>[24]</sup>.
-*   **Continuity & Handoff:** Enables seamless interaction between macOS and iOS/iPadOS devices (e.g., Universal Control, Sidecar<sup>[25]</sup>).
+*   **Spotlight Search:** A system-wide search feature[^6].
+*   **Time Machine:** An automatic backup utility[^7].
+*   **App Store:** Apple's digital distribution platform[^24].
+*   **Continuity & Handoff:** Enables seamless interaction between macOS and iOS/iPadOS devices (e.g., Universal Control, Sidecar[^25]).
 *   **Siri:** Apple's virtual assistant.
-*   **iCloud Integration:** Deep integration with Apple's cloud service<sup>[26]</sup>.
-*   **Accessibility:** Comprehensive built-in features like VoiceOver and Zoom<sup>[27]</sup>.
-*   **Gatekeeper & Notarization:** Security features to protect from malware<sup>[28]</sup>.
+*   **iCloud Integration:** Deep integration with Apple's cloud service[^26].
+*   **Accessibility:** Comprehensive built-in features like VoiceOver and Zoom[^27].
+*   **Gatekeeper & Notarization:** Security features to protect from malware[^28].
 *   **FileVault:** Full-disk encryption<sup>[28, Section: Data-at-Rest Protection]</sup>.
 *   **System Integrity Protection (SIP):** Restricts root user actions on protected parts of macOS<sup>[28, Section: System Integrity Protection]</sup>.
 
@@ -336,12 +336,12 @@ mindmap
 
 Developing applications for macOS is primarily done using Apple's integrated development environment (IDE), Xcode.
 
-*   **Xcode:** The comprehensive IDE for all Apple platforms<sup>[29]</sup>.
+*   **Xcode:** The comprehensive IDE for all Apple platforms[^29].
 *   **Programming Languages:**
-    *   **Swift:** Apple's modern, preferred language<sup>[30]</sup>.
-    *   **Objective-C:** Historical language, interoperable with Swift<sup>[21]</sup>.
-*   **Frameworks:** AppKit, SwiftUI<sup>[22]</sup>, Metal<sup>[19]</sup>, Core ML<sup>[20]</sup>.
-*   **Distribution:** Mac App Store<sup>[24]</sup>, or Developer ID for direct distribution<sup>[28, Section: Gatekeeper and Notarization]</sup>.
+    *   **Swift:** Apple's modern, preferred language[^30].
+    *   **Objective-C:** Historical language, interoperable with Swift[^21].
+*   **Frameworks:** AppKit, SwiftUI[^22], Metal[^19], Core ML[^20].
+*   **Distribution:** Mac App Store[^24], or Developer ID for direct distribution<sup>[28, Section: Gatekeeper and Notarization]</sup>.
 
 ```mermaid
 ---
@@ -411,8 +411,8 @@ Apple places a strong emphasis on security and privacy in macOS.
 *   **Data Protection:**
     *   **FileVault 2:** Full-disk encryption<sup>[28, Section: Data-at-Rest Protection]</sup>.
 *   **Application Security:**
-    *   **App Sandboxing:** Restricts app access to system resources<sup>[31]</sup>.
-    *   **Code Signing:** Verifies developer identity and code integrity<sup>[28]</sup>.
+    *   **App Sandboxing:** Restricts app access to system resources[^31].
+    *   **Code Signing:** Verifies developer identity and code integrity[^28].
 *   **Privacy Controls:**
     *   **Permissions Prompts (TCC):** User consent for access to sensitive data (location, camera, etc.)<sup>[28, Section: Access to User Data]</sup>.
 
@@ -478,9 +478,9 @@ mindmap
 
 macOS is a cornerstone of Apple's tightly integrated ecosystem.
 
-*   **Hardware-Software Integration:** Deep optimization between macOS and Mac hardware (especially Apple Silicon<sup>[13]</sup>).
-*   **iCloud:** Cloud storage and synchronization for photos, files, mail, contacts, etc.<sup>[26]</sup>.
-*   **Continuity Features:** Handoff, Universal Clipboard, Sidecar, Universal Control<sup>[25]</sup>.
+*   **Hardware-Software Integration:** Deep optimization between macOS and Mac hardware (especially Apple Silicon[^13]).
+*   **iCloud:** Cloud storage and synchronization for photos, files, mail, contacts, etc.[^26].
+*   **Continuity Features:** Handoff, Universal Clipboard, Sidecar, Universal Control[^25].
 *   **Communication:** Messages and FaceTime.
 *   **Media & Content:** Apple Music, Apple TV+, etc.
 *   **Find My:** Locate lost devices.
@@ -544,9 +544,9 @@ flowchart LR
 
 ## 8. Conclusion: The Enduring Appeal of macOS
 
-macOS stands as a testament to Apple's commitment to creating a powerful, secure, and user-friendly computing experience. Its Unix foundation provides stability<sup>[15]</sup>, while its Aqua interface and rich application frameworks empower users and developers. The integration with Apple hardware, particularly Apple Silicon<sup>[13]</sup>, has further enhanced its capabilities.
+macOS stands as a testament to Apple's commitment to creating a powerful, secure, and user-friendly computing experience. Its Unix foundation provides stability[^15], while its Aqua interface and rich application frameworks empower users and developers. The integration with Apple hardware, particularly Apple Silicon[^13], has further enhanced its capabilities.
 
-The continuous evolution of macOS, with regular updates introducing innovative features and strengthened security<sup>[28]</sup>, ensures its relevance. Its seamless connectivity within the Apple ecosystem makes it a compelling choice for users of Apple's devices and services.
+The continuous evolution of macOS, with regular updates introducing innovative features and strengthened security[^28], ensures its relevance. Its seamless connectivity within the Apple ecosystem makes it a compelling choice for users of Apple's devices and services.
 
 ```mermaid
 ---
@@ -689,26 +689,29 @@ flowchart LR
 [^13]: Apple Inc. (2020, November 10). *Introducing the next generation of Mac*. [Apple Newsroom PR](https://www.apple.com/newsroom/2020/11/introducing-the-next-generation-of-mac/)
 [^14]: Apple Inc. (2023, September 26). *macOS Sonoma is available today*. [Apple Newsroom PR](https://www.apple.com/newsroom/2023/09/macos-sonoma-is-available-today/)
 
+
+[^15]: Apple Inc. (n.d.). *Darwin Open Source*. Retrieved from [opensource.apple.com/source/Darwin/](https://opensource.apple.com/)
+[^16]: Singh, A. (2006). *Mac OS X Internals: A Systems Approach*. Addison-Wesley Professional. (A detailed technical book, can also reference Apple Kernel Programming Guide if available).
+[^17]: Apple Inc. (n.d.). *I/O Kit Fundamentals*. [Apple Developer Documentation](https://developer.apple.com/library/archive/documentation/DeviceDrivers/Conceptual/IOKitFundamentals/ทำความเข้าใจIOKit/ทำความเข้าใจIOKit.html) (Archived, but principles hold).
+[^18]: Apple Inc. (n.d.). *About Apple File System*. [Apple Developer Documentation](https://developer.apple.com/library/archive/documentation/FileManagement/Conceptual/APFS_Guide/Introduction/Introduction.html).
+[^19]: Apple Inc. (n.d.). *Metal*. [Apple Developer Documentation](https://developer.apple.com/metal/).
+[^20]: Apple Inc. (n.d.). *Core ML*. [Apple Developer Documentation](https://developer.apple.com/documentation/coreml).
+[^21]: Apple Inc. (n.d.). *Cocoa Application Competencies for macOS*. [Apple Developer Documentation](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/OSXTechnologies/CocoaTechnologies/CocoaTechnologies.html).
+[^22]: Apple Inc. (n.d.). *SwiftUI*. [Apple Developer Documentation](https://developer.apple.com/xcode/swiftui/).
+[^23]: Apple Inc. (n.d.). *Mac Catalyst*. [Apple Developer Documentation](https://developer.apple.com/mac-catalyst/).
+[^24]: Apple Inc. (n.d.). *Mac App Store*. Retrieved from [apple.com/mac/app-store/](https://www.apple.com/mac/app-store/).
+[^25]: Apple Inc. (n.d.). *Continuity: Use your Mac, iPhone, iPad, and Apple Watch together*. [Apple Support HT204681](https://support.apple.com/en-us/HT204681).
+[^26]: Apple Inc. (n.d.). *iCloud*. Retrieved from [apple.com/icloud/](https://www.apple.com/icloud/).
+[^27]: Apple Inc. (n.d.). *Accessibility - Mac*. Retrieved from [apple.com/accessibility/mac/](https://www.apple.com/accessibility/mac/).
+[^28]: Apple Inc. (2023, May). *Apple Platform Security*. [Apple Support - Platform Security Guide](https://support.apple.com/guide/security/welcome/web) or direct PDF link. This is a comprehensive source for many security features.
+[^29]: Apple Inc. (n.d.). *Xcode*. [Apple Developer Documentation](https://developer.apple.com/xcode/).
+[^30]: Apple Inc. (n.d.). *Swift*. [Apple Developer Documentation](https://developer.apple.com/swift/).
+[^31]: Apple Inc. (n.d.). *App Sandbox*. [Apple Developer Documentation](https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html).
+
+
 <small>Example contemporary report: [TechCrunch article on macOS Sierra naming](https://techcrunch.com/2016/06/13/apple-rebrands-os-x-macos-announces-macos-sierra/)</small><br>
 
 
-<small>[15] Apple Inc. (n.d.). *Darwin Open Source*. Retrieved from [opensource.apple.com/source/Darwin/](https://opensource.apple.com/)</small><br>
-<small>[16] Singh, A. (2006). *Mac OS X Internals: A Systems Approach*. Addison-Wesley Professional. (A detailed technical book, can also reference Apple Kernel Programming Guide if available).</small><br>
-<small>[17] Apple Inc. (n.d.). *I/O Kit Fundamentals*. [Apple Developer Documentation](https://developer.apple.com/library/archive/documentation/DeviceDrivers/Conceptual/IOKitFundamentals/ทำความเข้าใจIOKit/ทำความเข้าใจIOKit.html) (Archived, but principles hold).</small><br>
-<small>[18] Apple Inc. (n.d.). *About Apple File System*. [Apple Developer Documentation](https://developer.apple.com/library/archive/documentation/FileManagement/Conceptual/APFS_Guide/Introduction/Introduction.html).</small><br>
-<small>[19] Apple Inc. (n.d.). *Metal*. [Apple Developer Documentation](https://developer.apple.com/metal/).</small><br>
-<small>[20] Apple Inc. (n.d.). *Core ML*. [Apple Developer Documentation](https://developer.apple.com/documentation/coreml).</small><br>
-<small>[21] Apple Inc. (n.d.). *Cocoa Application Competencies for macOS*. [Apple Developer Documentation](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/OSXTechnologies/CocoaTechnologies/CocoaTechnologies.html).</small><br>
-<small>[22] Apple Inc. (n.d.). *SwiftUI*. [Apple Developer Documentation](https://developer.apple.com/xcode/swiftui/).</small><br>
-<small>[23] Apple Inc. (n.d.). *Mac Catalyst*. [Apple Developer Documentation](https://developer.apple.com/mac-catalyst/).</small><br>
-<small>[24] Apple Inc. (n.d.). *Mac App Store*. Retrieved from [apple.com/mac/app-store/](https://www.apple.com/mac/app-store/).</small><br>
-<small>[25] Apple Inc. (n.d.). *Continuity: Use your Mac, iPhone, iPad, and Apple Watch together*. [Apple Support HT204681](https://support.apple.com/en-us/HT204681).</small><br>
-<small>[26] Apple Inc. (n.d.). *iCloud*. Retrieved from [apple.com/icloud/](https://www.apple.com/icloud/).</small><br>
-<small>[27] Apple Inc. (n.d.). *Accessibility - Mac*. Retrieved from [apple.com/accessibility/mac/](https://www.apple.com/accessibility/mac/).</small><br>
-<small>[28] Apple Inc. (2023, May). *Apple Platform Security*. [Apple Support - Platform Security Guide](https://support.apple.com/guide/security/welcome/web) or direct PDF link. This is a comprehensive source for many security features.</small><br>
-<small>[29] Apple Inc. (n.d.). *Xcode*. [Apple Developer Documentation](https://developer.apple.com/xcode/).</small><br>
-<small>[30] Apple Inc. (n.d.). *Swift*. [Apple Developer Documentation](https://developer.apple.com/swift/).</small><br>
-<small>[31] Apple Inc. (n.d.). *App Sandbox*. [Apple Developer Documentation](https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html).</small><br>
 <small>[Apple About] Apple Inc. (n.d.). *About Apple*. Retrieved from [apple.com/about/](https://www.apple.com/about/). (General company information).</small>
 
 
