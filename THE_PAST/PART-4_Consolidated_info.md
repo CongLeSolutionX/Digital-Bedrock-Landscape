@@ -237,28 +237,28 @@ mindmap
       ::icon(fa fa-folder-tree)
       Description: Tree-like directory structure
       Impact: Intuitive organization, path-based addressing
-      Example["Example: **/usr/bin/grep**"]
+      %% Example["Example: **/usr/bin/grep**"]
     Device_Files))"Device Files<br/>(<code>/dev</code>) ⚙️"((
       ::icon(fa fa-cog)
       Description: Devices treated as files
       Impact: Unified I/O model, abstraction
-      Example["Example: **cat /dev/random > /dev/null**"]
+      %% Example["Example: **cat /dev/random > /dev/null**"]
     The_C_Programming_Language))"The C Programming Language 🎯"((
       ::icon(fa fa-bullseye)
       Description: High-level, efficient system programming language
       Impact: Portability of Unix, easier development
-      Equation["Equation: *Enabled efficient OS code like:*"]
-      Example["**while ((c = getchar()) != EOF)**"]
+      Equation["Equation: *Enabled efficient OS code like*"]
+      %% Example["**while ((c = getchar()) != EOF)**"]
     Pipes))"Pipes <char>|</char> 💧"((
       ::icon(fa fa-water)
       Description: Chain commands, output of one is input to next
       Impact: Small, single-purpose tools, powerful compositions
-      Example["Example:<br/> **ls -l | grep ".txt" | wc -l**"]
+      %% Example["Example:<br/> **ls -l | grep ".txt" | wc -l**"]
     Shell))"Shell<br/>(Command Line Interface) ⌨️"((
       ::icon(fa fa-keyboard)
       Description: User interaction, scripting
       Impact: Programmable environment, automation
-      Example["Example:<br/> **sh**, **bash**, **csh**"]
+      %% Example["Example:<br/> **sh**, **bash**, **csh**"]
     Multi_user_and_Time_sharing))"Multi-user & <br/> Time-sharing 👨‍👩‍👧‍👦"((
       ::icon(fa fa-users)
       Description: Concurrent users on one system
