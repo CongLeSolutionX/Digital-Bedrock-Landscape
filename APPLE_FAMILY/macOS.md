@@ -174,7 +174,7 @@ macOS boasts a layered architecture, combining the stability and power of a Unix
 
 *   **Darwin (Core OS Layer):** The foundation of macOS. It's an open-source, Unix-like operating system[^15].
     *   **XNU Kernel:** A hybrid kernel combining Mach microkernel principles (IPC, virtual memory, task scheduling) with BSD components (POSIX API, networking stack, file systems)[^16]. This provides preemptive multitasking and protected memory.
-    *   **Device Drivers (I/O Kit):** An object-oriented framework for writing device drivers<sup>[17]</sup>.
+    *   **Device Drivers (I/O Kit):** An object-oriented framework for writing device drivers[^17].
 *   **Core Services & Graphics/Media Layer:**
     *   **File Systems:** Historically HFS+, now predominantly **APFS (Apple File System)**, optimized for SSDs and featuring strong encryption, space sharing, snapshots, and crash protection[^11][^18].
     *   **Metal:** Apple's low-level, low-overhead API for GPU programming, powering graphics and compute tasks[^19].
