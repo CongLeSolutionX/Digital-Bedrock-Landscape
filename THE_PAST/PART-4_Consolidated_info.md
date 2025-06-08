@@ -237,18 +237,18 @@ mindmap
       ::icon(fa fa-folder-tree)
       Description: Tree-like directory structure
       Impact: Intuitive organization, path-based addressing
-      %% Example["Example: **/usr/bin/grep**"]
-    Device_Files))"Device Files<br/>(<code>/dev</code>) ⚙️"((
+      Example["Example: **/usr/bin/grep**"]
+    Device_Files))"Device Files (**/dev**) ⚙️"((
       ::icon(fa fa-cog)
       Description: Devices treated as files
       Impact: Unified I/O model, abstraction
-      %% Example["Example: `cat /dev/random > /dev/null` "]
+      Example["Example: **cat /dev/random > /dev/null**"]
     The_C_Programming_Language))"The C Programming Language 🎯"((
       ::icon(fa fa-bullseye)
       Description: High-level, efficient system programming language
       Impact: Portability of Unix, easier development
       Equation["Equation: *Enabled efficient OS code like*"]
-      %% Example["**while ((c = getchar()) != EOF)**"]
+      Example["**while ((c = getchar()) != EOF)**"]
     Pipes))"Pipes <char>|</char> 💧"((
       ::icon(fa fa-water)
       Description: Chain commands, output of one is input to next
