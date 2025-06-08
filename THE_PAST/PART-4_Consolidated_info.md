@@ -310,7 +310,7 @@ mindmap
       %% Rule: Explicitly define rights! $$\\mathcal{L}_{AI} = f(\text{data}, \text{model}, \text{output})$$
     Openness_and_Community))"🌍 Openness & Community"((
       ::icon(fa fa-globe)
-      Unix: Early academic licenses fueled V6 spread & BSD innovations.
+      Unix["🐧 Unix 📜:<br/> Early academic licenses fueled V6 spread & BSD innovations"]
       AI["🤖 AI 🧠:<br/> Open models (BLOOM, Llama) & frameworks (PyTorch) accelerate research"]
       Rule["📋 Rule 📌:<br/>Consider open-source<br/>(MIT, Apache, OpenRAIL)"]
     Restrictive_Commercialization_Risks))"🧱 Restrictive Commercialization Risks"((
@@ -320,22 +320,22 @@ mindmap
       Rule: Balance profit with fair access/interoperability.
     Power_of_Standardization))"⚙️ Power of Standardization"((
       ::icon(fa fa-cogs)
-      Unix: POSIX, SVID reduced chaos, promoted portability.
+      Unix["🐧 Unix 📜:<br/> POSIX, SVID reduced chaos, promoted portability"]
       %% AI: Needed for model formats (ONNX), APIs, data interchange, ethics.
       Rule: Support/contribute to open standards.
     FOSS_Disruption))"🐧 FOSS Disruption"((
       ::icon(fa fa-linux)
-      Unix: GNU/Linux offered powerful, free alternatives.
+      Unix["🐧 Unix 📜:<br/> GNU/Linux offered powerful, free alternatives"]
       AI: Open-source AI models providing vital alternatives to proprietary ones.
       Rule: Leverage & contribute to FOSS AI.
     Source_Code_Model_Access_Value))"📖 Source Code / Model Access Value"((
       ::icon(fa fa-book-open)
-      Unix["Unix:<br/> V6 source helped learning & porting"]
+      Unix["🐧 Unix 📜:<br/>V6 source helped learning & porting"]
       AI["AI:<br/>Access to model architectures/weights crucial for research, bias detection, fine-tuning"]
       Rule["Rule:<br/> **Open (ish) box** > **black box**"]
     Trademarks_vs_Copyrights))"™️ Trademarks vs. © Copyrights"((
       ::icon(fa fa-registered)
-      Unix["Unix:<br/> **UNIX** trademark (Open Group) <br/>vs.<br/> code copyrights (Novell for AT&T's)."]
+      Unix["🐧 Unix 📜:<br/> **UNIX** trademark (Open Group) <br/>vs.<br/> code copyrights (Novell for AT&T's)."]
       AI["AI:<br/> Distinction needed for branding AI systems <br/>vs.<br/> owning underlying model/data IP"]
       Rule: Understand and use both strategically.
 ```
