@@ -467,21 +467,6 @@ sequenceDiagram
 
 This exploration has aimed to visually represent the intricate history of Unix, the valuable lessons it holds for the current AI era, and the potential role of blockchain technologies in navigating emerging challenges. By using diagrams and structured information, we can better grasp these interconnected concepts. The journey from Multics to modern AI, with its IP and ethical quandaries, is ongoing, but understanding the past can illuminate the path forward. ✨
 
-### Relevant References & Further Reading (General)
-
-*   **Unix History:**
-    *   Ritchie, D. M. (1984). "The Evolution of the Unix Time-sharing System". *AT&T Bell Laboratories Technical Journal*. [PDF link](https://www.bell-labs.com/usr/dmr/www/hist.pdf)
-    *   Salus, P. H. (1994). *A Quarter Century of UNIX*. Addison Wesley.
-    *   Kernighan, B. W. (2019). *UNIX: A History and a Memoir*. Independently published.
-*   **AI Ethics and Governance:**
-    *   Numerous papers and reports from organizations like IEEE, Partnership on AI, AI Now Institute.
-*   **Blockchain Technology:**
-    *   Narayanan, A., Bonneau, J., Felten, E., Miller, A., & Goldfeder, S. (2016). *Bitcoin and cryptocurrency technologies: A comprehensive introduction*. Princeton University Press.
-    *   Ethereum Whitepaper & Yellow Paper: [ethereum.org](https://ethereum.org/)
-*   **Content Provenance:**
-    *   [C2PA (Coalition for Content Provenance and Authenticity)](https://c2pa.org/)
-
-
 ---
 
 <!-- 
@@ -540,3 +525,21 @@ flowchart LR
 >- **Creative Commons Attribution-ShareAlike 4.0 International**: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) [![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/) - Legal details in [LICENSE-CC-BY-SA-4.0](THE_PAST/LICENSE-CC-BY-SA-4.0) and at [Creative Commons official site](https://creativecommons.org/licenses/by-sa/4.0/).
 >
 ---
+
+
+### Relevant References & Further Reading (General)
+
+*   **Unix History:**
+    *   Ritchie, D. M. (1984). "The Evolution of the Unix Time-sharing System". *AT&T Bell Laboratories Technical Journal*. [PDF link](https://www.read.seas.harvard.edu/~kohler/class/aosref/ritchie84evolution.pdf)
+    *   Salus, P. H. (1994). *A Quarter Century of UNIX*. Addison Wesley.
+    *   Kernighan, B. W. (2019). *UNIX: A History and a Memoir*. Independently published.
+*   **AI Ethics and Governance:**
+    *   Numerous papers and reports from organizations like IEEE, Partnership on AI, AI Now Institute.
+*   **Blockchain Technology:**
+    *   Narayanan, A., Bonneau, J., Felten, E., Miller, A., & Goldfeder, S. (2016). *Bitcoin and cryptocurrency technologies: A comprehensive introduction*. Princeton University Press.
+    *   Ethereum Whitepaper & Yellow Paper: [ethereum.org](https://ethereum.org/)
+*   **Content Provenance:**
+    *   [C2PA (Coalition for Content Provenance and Authenticity)](https://c2pa.org/)
+
+----
+
