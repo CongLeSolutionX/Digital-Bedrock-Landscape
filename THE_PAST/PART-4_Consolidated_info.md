@@ -46,7 +46,7 @@ The history of Unix is a rich tapestry of innovation, collaboration, and competi
 
 ```mermaid
 ---
-title: "Nikola Tesla's Comprehensive Patents (both US and non-US) Timeline"
+title: "The History of Unix: A Saga Unfolds"
 author: "Cong Le"
 version: "1.0"
 license(s): "MIT, CC BY-SA 4.0"
