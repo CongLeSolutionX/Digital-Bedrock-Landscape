@@ -311,8 +311,6 @@ config:
 mindmap
   root)"Unix Lessons for AI Era"(
     IP_Ownership_Clarity))"🏛️ IP Ownership Clarity"((
-  root)"Unix Lessons for AI Era"(
-    IP_Ownership_Clarity))"🏛️ IP Ownership Clarity"((
       ::icon(fa fa-landmark)
       Unix["🐧 Unix 📜:<br/>SCO vs. Novell lawsuits<br/>(copyright chaos)"]
       AI["🤖 AI 🧠:<br/>Crucial for models, training data, generated content licenses"]
