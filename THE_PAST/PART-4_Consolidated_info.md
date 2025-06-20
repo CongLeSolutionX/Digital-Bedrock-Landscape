@@ -19,8 +19,6 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 
 ----
 
-
-
 # Consolidated information
 <details open>
 <summary>Click to show/hide the full disclaimer.</summary>
@@ -37,6 +35,8 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 </details>
 
 ---
+
+
 
 ## ⏳ Visualizing the History of Unix: A Saga Unfolds
 
@@ -134,6 +134,9 @@ gantt
 
 This diagram illustrates the main branches and influences in the Unix family:
 
+<details open>
+<summary>Click to show/hide the full native DOT implementation with comment documentation.</summary>
+
 ```dot
 digraph UnixLineage {
     rankdir="TB";
@@ -201,6 +204,10 @@ digraph UnixLineage {
     Research_Unix -> GNU_Project [style=dotted, label=" philosophy inspired"];
 }
 ```
+
+</details>
+
+----
 
 ### Core Unix Innovations & Their Significance 💡
 
@@ -272,13 +279,14 @@ mindmap
 
 ----
 
+
 ## 📜 Lessons from Unix for the AI Era: A Guiding Light 🌟
 
 The journey of Unix offers profound lessons for navigating the complexities of the rapidly evolving AI landscape.
 
 ```mermaid
 ---
-title: "Overall Structure of the License Agreement"
+title: "Lessons from Unix for the AI Era: A Guiding Light"
 author: "Cong Le"
 version: "1.0"
 license(s): "MIT, CC BY 4.0"
@@ -289,13 +297,13 @@ config:
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%{
   init: {
-    'fontFamily': 'Andale Mono, monospace',
+    'fontFamily': 'American Typewriter',
     'mindmap': {
 	    'nodeAlign': 'center',
 	    'padding': 20
     },
     'themeVariables': {
-      'primaryColor': '#22BB',
+      'primaryColor': '#FC82',
       'primaryTextColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
       'secondaryColor': '#EBF3',
@@ -309,39 +317,39 @@ mindmap
   root)"Unix Lessons for AI Era"(
     IP_Ownership_Clarity))"🏛️ IP Ownership Clarity"((
       ::icon(fa fa-landmark)
-      Unix: SCO vs. Novell lawsuits (copyright chaos)
-      AI: Crucial for models, training data, generated content licenses.
-      %% Rule: Explicitly define rights! $$\\mathcal{L}_{AI} = f(\text{data}, \text{model}, \text{output})$$
+      Unix["🐧 Unix 📜:<br/>SCO vs. Novell lawsuits<br/>(copyright chaos)"]
+      AI["🤖 AI 🧠:<br/>Crucial for models, training data, generated content licenses"]
+      Rule["📋 Rule 📌:<br/> Explicitly define rights! $$\\mathcal{L}_{AI} = f(\text{data}, \text{model}, \text{output})$$"]
     Openness_and_Community))"🌍 Openness & Community"((
       ::icon(fa fa-globe)
-      Unix: Early academic licenses fueled V6 spread & BSD innovations.
-      %% AI: Open models (BLOOM, Llama) & frameworks (PyTorch) accelerate research.
-      %% Rule: Consider open-source (MIT, Apache, OpenRAIL).
+      Unix["🐧 Unix 📜:<br/> Early academic licenses fueled V6 spread & BSD innovations"]
+      AI["🤖 AI 🧠:<br/> Open models (BLOOM, Llama) & frameworks (PyTorch) accelerate research"]
+      Rule["📋 Rule 📌:<br/>Consider open-source<br/>(MIT, Apache, OpenRAIL)"]
     Restrictive_Commercialization_Risks))"🧱 Restrictive Commercialization Risks"((
       ::icon(fa fa-store-slash)
-      Unix: "Unix Wars" due to incompatible, proprietary versions.
-      AI: Walled gardens, expensive APIs can stifle; risk fragmentation.
-      Rule: Balance profit with fair access/interoperability.
+      Unix["🐧 Unix 📜:<br/> **Unix Wars** due to incompatible, proprietary versions"]
+      AI["🤖 AI 🧠:<br/> Walled gardens, expensive APIs can stifle; risk fragmentation"]
+      Rule["📋 Rule 📌:<br/> Balance profit with fair access/interoperability"]
     Power_of_Standardization))"⚙️ Power of Standardization"((
       ::icon(fa fa-cogs)
-      Unix: POSIX, SVID reduced chaos, promoted portability.
-      %% AI: Needed for model formats (ONNX), APIs, data interchange, ethics.
-      Rule: Support/contribute to open standards.
+      Unix["🐧 Unix 📜:<br/> POSIX, SVID reduced chaos, promoted portability"]
+      AI["🤖 AI 🧠:<br/> Needed for model formats (ONNX), APIs, data interchange, ethics"]
+      Rule["📋 Rule 📌:<br/> Support/contribute to open standards"]
     FOSS_Disruption))"🐧 FOSS Disruption"((
       ::icon(fa fa-linux)
-      Unix: GNU/Linux offered powerful, free alternatives.
-      AI: Open-source AI models providing vital alternatives to proprietary ones.
-      Rule: Leverage & contribute to FOSS AI.
-    Source_Code_and_Model_Access_Value))"📖 Source Code / Model Access Value"((
+      Unix["🐧 Unix 📜:<br/> GNU/Linux offered powerful, free alternatives"]
+      AI["🤖 AI 🧠:<br/> Open-source AI models providing vital alternatives to proprietary ones"]
+      Rule["📋 Rule 📌:<br/> Leverage & contribute to FOSS AI"]
+    Source_Code_Model_Access_Value))"📖 Source Code / Model Access Value"((
       ::icon(fa fa-book-open)
-      Unix: V6 source helped learning & porting.
-      AI: Access to model architectures/weights crucial for research, bias detection, fine-tuning.
-      %% Rule: "Open (ish) box" > "black box."
+      Unix["🐧 Unix 📜:<br/>V6 source helped learning & porting"]
+      AI["🤖 AI 🧠:<br/>Access to model architectures/weights crucial for research, bias detection, fine-tuning"]
+      Rule["📋 Rule 📌:<br/> **Open (ish) box** > **black box**"]
     Trademarks_vs_Copyrights))"™️ Trademarks vs. © Copyrights"((
       ::icon(fa fa-registered)
-      %% Unix: "UNIX" trademark (Open Group) vs. code copyrights (Novell for AT&T's).
-      AI: Distinction needed for branding AI systems vs. owning underlying model/data IP.
-      Rule: Understand and use both strategically.
+      Unix["🐧 Unix 📜:<br/> **UNIX** trademark (Open Group) <br/>vs.<br/> code copyrights (Novell for AT&T's)"]
+      AI["🤖 AI 🧠:<br/> Distinction needed for branding AI systems <br/>vs.<br/> owning underlying model/data IP"]
+      Rule["📋 Rule 📌:<br/> Understand and use both strategically"]
 ```
 
 ## 🔗 Blockchain's Potential for AI Era Quandaries: Bridging Gaps ⛓️
@@ -349,6 +357,10 @@ mindmap
 Drawing from Unix's historical IP and commercialization lessons, blockchain technologies present intriguing possibilities for some of the AI era's most pressing challenges.
 
 ### AI Challenges & Blockchain-Powered Potential Solutions 💡🔗
+
+<details open>
+<summary>Click to show/hide the full native DOT implementation with comment documentation.</summary>
+
 
 ```dot
 digraph AI_Blockchain_Solutions {
@@ -400,8 +412,9 @@ digraph AI_Blockchain_Solutions {
 }
 ```
 
-----
+</details>
 
+-----
 
 ### Simplified Flow: Minting & Licensing AI Art with NFTs 🖼️➡️🔗
 
@@ -438,8 +451,8 @@ config:
 }%%
 sequenceDiagram
     actor User as 🧑‍🎨 User/Creator
-	  
-    box rgb(202, 12, 22, 0.1) The Platform Ecosystem
+
+	  box rgb(202, 12, 22, 0.1) The Platform Ecosystem
     	participant AIP_Platform as 🤖 AI Art Platform
     	participant Blockchain as 🔗 Blockchain <br/>(e.g., Ethereum)
     	participant Marketplace as 🛒 NFT Marketplace
@@ -468,21 +481,6 @@ sequenceDiagram
 ## 🔚 Conclusion: Visualizing Complexity for Clarity
 
 This exploration has aimed to visually represent the intricate history of Unix, the valuable lessons it holds for the current AI era, and the potential role of blockchain technologies in navigating emerging challenges. By using diagrams and structured information, we can better grasp these interconnected concepts. The journey from Multics to modern AI, with its IP and ethical quandaries, is ongoing, but understanding the past can illuminate the path forward. ✨
-
-### Relevant References & Further Reading (General)
-
-*   **Unix History:**
-    *   Ritchie, D. M. (1984). "The Evolution of the Unix Time-sharing System". *AT&T Bell Laboratories Technical Journal*. [PDF link](https://www.bell-labs.com/usr/dmr/www/hist.pdf)
-    *   Salus, P. H. (1994). *A Quarter Century of UNIX*. Addison Wesley.
-    *   Kernighan, B. W. (2019). *UNIX: A History and a Memoir*. Independently published.
-*   **AI Ethics and Governance:**
-    *   Numerous papers and reports from organizations like IEEE, Partnership on AI, AI Now Institute.
-*   **Blockchain Technology:**
-    *   Narayanan, A., Bonneau, J., Felten, E., Miller, A., & Goldfeder, S. (2016). *Bitcoin and cryptocurrency technologies: A comprehensive introduction*. Princeton University Press.
-    *   Ethereum Whitepaper & Yellow Paper: [ethereum.org](https://ethereum.org/)
-*   **Content Provenance:**
-    *   [C2PA (Coalition for Content Provenance and Authenticity)](https://c2pa.org/)
-
 
 ---
 
@@ -526,14 +524,12 @@ flowchart LR
     
   My_Meme ~~~ Closing_quote
     
-  Link_to_my_profile{{"<a href='https://github.com/CongLeSolutionX/CongLeSolutionX' target='_blank'>Click here if you care about my profile</a>"}}
+  Link_to_my_profile{{"<a href='https://github.com/CongLeSolutionX' target='_blank'>Click here if you care about my profile</a>"}}
 
   Closing_quote ~~~ My_Meme
   My_Meme animatingEdge@--> Link_to_my_profile
   
   animatingEdge@{ animate: true }
-
-
 
 ```
 
@@ -544,3 +540,19 @@ flowchart LR
 >- **Creative Commons Attribution-ShareAlike 4.0 International**: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) [![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/) - Legal details in [LICENSE-CC-BY-SA-4.0](THE_PAST/LICENSE-CC-BY-SA-4.0) and at [Creative Commons official site](https://creativecommons.org/licenses/by-sa/4.0/).
 >
 ---
+
+### Relevant References & Further Reading (General)
+
+*   **Unix History:**
+    *   Ritchie, D. M. (1984). "The Evolution of the Unix Time-sharing System". *AT&T Bell Laboratories Technical Journal*. [PDF link](https://www.read.seas.harvard.edu/~kohler/class/aosref/ritchie84evolution.pdf)
+    *   Salus, P. H. (1994). *A Quarter Century of UNIX*. Addison Wesley.
+    *   Kernighan, B. W. (2019). *UNIX: A History and a Memoir*. Independently published.
+*   **AI Ethics and Governance:**
+    *   Numerous papers and reports from organizations like IEEE, Partnership on AI, AI Now Institute.
+*   **Blockchain Technology:**
+    *   Narayanan, A., Bonneau, J., Felten, E., Miller, A., & Goldfeder, S. (2016). *Bitcoin and cryptocurrency technologies: A comprehensive introduction*. Princeton University Press.
+    *   Ethereum Whitepaper & Yellow Paper: [ethereum.org](https://ethereum.org/)
+*   **Content Provenance:**
+    *   [C2PA (Coalition for Content Provenance and Authenticity)](https://c2pa.org/)
+
+----
