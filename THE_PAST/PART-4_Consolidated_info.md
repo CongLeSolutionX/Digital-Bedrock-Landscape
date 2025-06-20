@@ -207,12 +207,13 @@ digraph UnixLineage {
 
 </details>
 
+----
 
 ### Core Unix Innovations & Their Significance 💡
 
 ```mermaid
 ---
-title: "Core Unix Innovations & Their Significance"
+title: "Overall Structure of the License Agreement"
 author: "Cong Le"
 version: "1.0"
 license(s): "MIT, CC BY 4.0"
@@ -223,13 +224,13 @@ config:
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%{
   init: {
-    'fontFamily': 'American Typewriter',
+    'fontFamily': 'Andale Mono, monospace',
     'mindmap': {
 	    'nodeAlign': 'center',
 	    'padding': 20
     },
     'themeVariables': {
-      'primaryColor': '#FC82',
+      'primaryColor': '#22BB',
       'primaryTextColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
       'secondaryColor': '#EBF3',
@@ -240,34 +241,36 @@ config:
   }
 }%%
 mindmap
-  root)"Unix Core Innovations"(
+  root)"**Unix Core Innovations**"(
     Hierarchical_File_System))"Hierarchical File System 📂"((
       ::icon(fa fa-folder-tree)
-      Description: Tree-like directory structure
-      Impact: Intuitive organization, path-based addressing
-      Example["Example: **/usr/bin/grep**"]
-    Device_Files))"Device Files (**/dev**) ⚙️"((
+      Description("Tree-like directory structure")
+      Impact("Intuitive organization, path-based addressing")
+      Example("**/usr/bin/grep**")
+    Device_Files))"Device Files<br/>(<code>/dev</code>) ⚙️"((
       ::icon(fa fa-cog)
-      Description: Devices treated as files
-      Impact: Unified I/O model, abstraction
-      Example["Example: **cat /dev/random > /dev/null**"]
+      Description("Devices treated as files")
+      Impact("Unified I/O model, abstraction")
+      Example("**cat /dev/random > /dev/null**")
     The_C_Programming_Language))"The C Programming Language 🎯"((
       ::icon(fa fa-bullseye)
-      Description: High-level, efficient system programming language
-      Impact: Portability of Unix, easier development
-      Equation["Equation: *Enabled efficient OS code like*"]
-      Example["**while ((c = getchar()) != EOF)**"]
+      Description("High-level, efficient system programming language")
+      Impact("Portability of Unix, easier development")
+      Equation("*Enabled efficient OS code like:* <br/> <br/> **while ((c = getchar()) != EOF)**")
     Pipes))"Pipes <char>|</char> 💧"((
       ::icon(fa fa-water)
-      Description: Chain commands, output of one is input to next
-      Impact: Small, single-purpose tools, powerful compositions
-      %% Example["Example:<br/> **ls -l | grep ".txt" | wc -l**"]
-    Shell))"Shell<br/>(Command Line Interface) ⌨️"((
+      Description("Chain commands, output of one is input to next")
+      Impact("Small, single-purpose tools, powerful compositions")
+      Example("**ls -l | grep '.txt' | wc -l**")
+    Shell))"Shell (Command Line Interface) ⌨️"((
       ::icon(fa fa-keyboard)
-      Description: User interaction, scripting
-      Impact: Programmable environment, automation
-      Example["Example: **sh**, **bash**, **csh**"]
-    Multi_user_and_Time_sharing))"Multi-user & <br/> Time-sharing 👨‍👩‍👧‍👦"((
+      Description("User interaction, scripting")
+      Impact("Programmable environment, automation")
+      Example{{"Examples"}}
+        ("**sh**")
+        ("**csh**")
+        ("**bash**")
+    Multi_user_Time_sharing))"Multi-user &<br/> Time-sharing 👨‍👩‍👧‍👦"((
       ::icon(fa fa-users)
       Description("Concurrent users on one system")
       Impact("Efficient resource use, collaborative computing")
@@ -275,6 +278,7 @@ mindmap
 ```
 
 ----
+
 
 ## 📜 Lessons from Unix for the AI Era: A Guiding Light 🌟
 
