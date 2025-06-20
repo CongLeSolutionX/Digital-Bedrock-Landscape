@@ -45,6 +45,42 @@ The history of Unix is a rich tapestry of innovation, collaboration, and competi
 ### Unix Major Milestones Timeline 🗓️
 
 ```mermaid
+---
+title: "Nikola Tesla's Comprehensive Patents (both US and non-US) Timeline"
+author: "Cong Le"
+version: "1.0"
+license(s): "MIT, CC BY-SA 4.0"
+copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
+config:
+  layout: elk
+  theme: base
+---
+%%%%%%%% Mermaid version v11.4.1-b.14
+%%{
+  init: {
+	'fontFamily': 'Bradley Hand',
+    'gantt': {
+      'titleTopMargin': 25,
+      'barHeight': 15,
+      'barGap': 10,
+      'topPadding': 65,
+      'rightPadding': 10,
+      'leftPadding': 200,
+      'gridLineStartPadding': 25,
+      'sectionFontSize': 15,
+      'numberSectionStyles': 4,
+      'axisFormat': '%Y',
+      'topAxis': true,
+      'weekday': 'sunday'
+    },
+    'themeVariables': {
+      'primaryColor': '#C004',
+      'primaryTextColor': '#F8B229',
+      'primaryBorderColor': '#27AE60',
+      'fontSize': '20px'
+    }
+  }
+}%%
 gantt
     title Key Milestones in Unix History
     dateFormat  YYYY
@@ -169,6 +205,34 @@ digraph UnixLineage {
 ### Core Unix Innovations & Their Significance 💡
 
 ```mermaid
+---
+title: "Overall Structure of the License Agreement"
+author: "Cong Le"
+version: "1.0"
+license(s): "MIT, CC BY 4.0"
+copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
+config:
+  theme: base
+---
+%%%%%%%% Mermaid version v11.4.1-b.14
+%%{
+  init: {
+    'fontFamily': 'Andale Mono, monospace',
+    'mindmap': {
+	    'nodeAlign': 'center',
+	    'padding': 20
+    },
+    'themeVariables': {
+      'primaryColor': '#22BB',
+      'primaryTextColor': '#F8B229',
+      'primaryBorderColor': '#27AE60',
+      'secondaryColor': '#EBF3',
+      'secondaryTextColor': '#6C3483',
+      'secondaryBorderColor': '#A569BD',
+      'fontSize': '20px'
+    }
+  }
+}%%
 mindmap
   root((Unix Core Innovations))
     (Hierarchical File System 📂)
@@ -211,6 +275,34 @@ mindmap
 The journey of Unix offers profound lessons for navigating the complexities of the rapidly evolving AI landscape.
 
 ```mermaid
+---
+title: "Overall Structure of the License Agreement"
+author: "Cong Le"
+version: "1.0"
+license(s): "MIT, CC BY 4.0"
+copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
+config:
+  theme: base
+---
+%%%%%%%% Mermaid version v11.4.1-b.14
+%%{
+  init: {
+    'fontFamily': 'Andale Mono, monospace',
+    'mindmap': {
+	    'nodeAlign': 'center',
+	    'padding': 20
+    },
+    'themeVariables': {
+      'primaryColor': '#22BB',
+      'primaryTextColor': '#F8B229',
+      'primaryBorderColor': '#27AE60',
+      'secondaryColor': '#EBF3',
+      'secondaryTextColor': '#6C3483',
+      'secondaryBorderColor': '#A569BD',
+      'fontSize': '20px'
+    }
+  }
+}%%
 mindmap
   root((Unix Lessons for AI Era))
     (🏛️ IP Ownership Clarity)
@@ -309,6 +401,42 @@ digraph AI_Blockchain_Solutions {
 ### Simplified Flow: Minting & Licensing AI Art with NFTs 🖼️➡️🔗
 
 ```mermaid
+---
+title: "Minting & Licensing AI Art with NFTs 🖼️➡️🔗"
+author: "Cong Le"
+version: "0.1"
+license(s): "MIT, CC BY 4.0"
+copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
+config:
+  layout: elk
+  theme: base
+---
+%%%%%%%% Mermaid version v11.4.1-b.14
+%%{
+  init: {
+    'sequence': { 
+      'mirrorActors': true, 
+      'showSequenceNumbers': true, 
+      'actorMargin': 50,
+      'actorFontSize': 14,
+      'messageFontSize': 12
+    },
+    'fontFamily': 'Monaco',
+    'logLevel': 'fatal',
+    'themeVariables': {
+      'primaryColor': '#2BB8',
+      'primaryBorderColor': '#7C0000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#6122',
+      'tertiaryColor': '#fff',
+      'fontSize': '15px',
+      'textColor': '#F8B229',
+      'actorTextColor': '#E2E',
+      'stroke':'#033',
+      'stroke-width': '0.2px'
+    }
+  }
+}%%
 sequenceDiagram
     participant User as 🧑‍🎨 User/Creator
     participant AIP_Platform as 🤖 AI Art Platform
@@ -316,18 +444,18 @@ sequenceDiagram
     participant Marketplace as 🛒 NFT Marketplace
     participant Buyer as 💰 Buyer
 
-    User->>AIP_Platform: Generates AI artwork (Prompt: "Epic Cat on Mars")
+    User->>AIP_Platform: Generates AI artwork<br/>(Prompt: "Epic Cat on Mars")
     AIP_Platform-->>User: Returns Artwork Image
-    User->>Blockchain: Mints Artwork as NFT (metadata: prompt, model, license terms)
+    User->>Blockchain: Mints Artwork as NFT<br/>(metadata: prompt, model, license terms)
     Note right of Blockchain: NFT Creation with hash $H(\text{Art})$
     Blockchain-->>User: NFT (Token ID) Confirmed in Wallet
 
-    User->>Marketplace: Lists NFT for sale (sets price, royalty % in smart contract)
+    User->>Marketplace: Lists NFT for sale<br/>(sets price, royalty % in smart contract)
     Marketplace->>Blockchain: Records listing via Smart Contract $S_L$
 
     Buyer->>Marketplace: Discovers & Wants to Buy NFT
     Buyer->>Blockchain: Executes purchase via Smart Contract $S_L$
-    Blockchain-->>User: Payment Transferred (minus fees)
+    Blockchain-->>User: Payment Transferred<br/>(minus fees)
     Blockchain-->>Buyer: NFT Transferred to Buyer's Wallet
     Note left of Buyer: Buyer now "owns" the token, can display/resell based on license in $S_L$.
 ```
