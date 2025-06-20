@@ -422,26 +422,28 @@ config:
     'sequence': { 'mirrorActors': true, 'showSequenceNumbers': true, 'actorMargin': 50 },
     'fontFamily': 'Monaco',
     'themeVariables': {
-      'primaryColor': '#2BB8',
-      'primaryBorderColor': '#7C0000',
-      'lineColor': '#F8B229',
+      'textColor': '#F8B229',
+      'actorBkg': '#22B8',
+      'actorBorder': '#7C0000',
       'secondaryColor': '#6122',
       'tertiaryColor': '#fff',
       'fontSize': '15px',
-      'textColor': '#F8B229',
       'actorTextColor': '#E2E',
-      'stroke':'#033',
-      'stroke-width': '0.2px'
+      'actorLineColor': '#E22E',
+      'signalColor': '#F93B',
+      'signalTextColor': '#2FBE'
     }
   }
 }%%
 sequenceDiagram
     actor User as 🧑‍🎨 User/Creator
-	box rgb(202, 12, 22, 0.1) The Platform Ecosystem
+	  
+    box rgb(202, 12, 22, 0.1) The Platform Ecosystem
     	participant AIP_Platform as 🤖 AI Art Platform
     	participant Blockchain as 🔗 Blockchain <br/>(e.g., Ethereum)
     	participant Marketplace as 🛒 NFT Marketplace
-	end
+	  end
+    
     actor Buyer as 💰 Buyer
 
     User->>AIP_Platform: Generates AI artwork <br/>(Prompt: "Epic Cat on Mars")
