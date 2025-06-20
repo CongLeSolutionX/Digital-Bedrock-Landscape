@@ -6,6 +6,7 @@ license(s): MIT, CC BY-SA 4.0
 copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 ---
 
+
 > ⚠️🏗️🚧🦺🧱🪵🪨🪚🛠️👷
 > 
 > This is a working draft in progress
@@ -19,14 +20,20 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 ----
 
 # Consolidated information
-> **Disclaimer:**
+<details open>
+<summary>Click to show/hide the full disclaimer.</summary>
+   
+> <ins>📢 **Disclaimer** 🚨</ins>
 >
 > This document contains my personal notes on the topic,
 > compiled from publicly available documentation and various cited sources.
-> The materials are intended for educational purposes, personal study, and reference.
+> The materials are intended for educational purposes (<ins>sometimes, entertainment purposes</ins>), personal study, and reference.
 > The content is dual-licensed:
 > 1. **MIT License:** Applies to all code implementations (Swift, Mermaid, and other programming languages).
 > 2. **Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0):** Applies to all non-code content, including text, explanations, diagrams, and illustrations.
+
+</details>
+
 ---
 
 
@@ -261,9 +268,9 @@ mindmap
       Example["Example: **sh**, **bash**, **csh**"]
     Multi_user_and_Time_sharing))"Multi-user & <br/> Time-sharing 👨‍👩‍👧‍👦"((
       ::icon(fa fa-users)
-      Description: Concurrent users on one system
-      Impact: Efficient resource use, collaborative computing
-      (Inspired by Multics)
+      Description("Concurrent users on one system")
+      Impact("Efficient resource use, collaborative computing")
+        ("Inspired by Multics")
 ```
 
 ----
@@ -302,6 +309,8 @@ config:
   }
 }%%
 mindmap
+  root)"Unix Lessons for AI Era"(
+    IP_Ownership_Clarity))"🏛️ IP Ownership Clarity"((
   root)"Unix Lessons for AI Era"(
     IP_Ownership_Clarity))"🏛️ IP Ownership Clarity"((
       ::icon(fa fa-landmark)
