@@ -400,11 +400,14 @@ digraph AI_Blockchain_Solutions {
 }
 ```
 
+----
+
+
 ### Simplified Flow: Minting & Licensing AI Art with NFTs 🖼️➡️🔗
 
 ```mermaid
 ---
-title: "Minting & Licensing AI Art with NFTs 🖼️➡️🔗"
+title: "Minting & Licensing AI Art with NFTs"
 author: "Cong Le"
 version: "0.1"
 license(s): "MIT, CC BY 4.0"
@@ -416,15 +419,8 @@ config:
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%{
   init: {
-    'sequence': { 
-      'mirrorActors': true, 
-      'showSequenceNumbers': true, 
-      'actorMargin': 50,
-      'actorFontSize': 14,
-      'messageFontSize': 12
-    },
+    'sequence': { 'mirrorActors': true, 'showSequenceNumbers': true, 'actorMargin': 50 },
     'fontFamily': 'Monaco',
-    'logLevel': 'fatal',
     'themeVariables': {
       'primaryColor': '#2BB8',
       'primaryBorderColor': '#7C0000',
@@ -440,24 +436,26 @@ config:
   }
 }%%
 sequenceDiagram
-    participant User as 🧑‍🎨 User/Creator
-    participant AIP_Platform as 🤖 AI Art Platform
-    participant Blockchain as 🔗 Blockchain (e.g., Ethereum)
-    participant Marketplace as 🛒 NFT Marketplace
-    participant Buyer as 💰 Buyer
+    actor User as 🧑‍🎨 User/Creator
+	box rgb(202, 12, 22, 0.1) The Platform Ecosystem
+    	participant AIP_Platform as 🤖 AI Art Platform
+    	participant Blockchain as 🔗 Blockchain <br/>(e.g., Ethereum)
+    	participant Marketplace as 🛒 NFT Marketplace
+	end
+    actor Buyer as 💰 Buyer
 
-    User->>AIP_Platform: Generates AI artwork<br/>(Prompt: "Epic Cat on Mars")
+    User->>AIP_Platform: Generates AI artwork <br/>(Prompt: "Epic Cat on Mars")
     AIP_Platform-->>User: Returns Artwork Image
-    User->>Blockchain: Mints Artwork as NFT<br/>(metadata: prompt, model, license terms)
+    User->>Blockchain: Mints Artwork as NFT <br/>(metadata: prompt, model, license terms)
     Note right of Blockchain: NFT Creation with hash $H(\text{Art})$
     Blockchain-->>User: NFT (Token ID) Confirmed in Wallet
 
-    User->>Marketplace: Lists NFT for sale<br/>(sets price, royalty % in smart contract)
+    User->>Marketplace: Lists NFT for sale <br/>(sets price, royalty % in smart contract)
     Marketplace->>Blockchain: Records listing via Smart Contract $S_L$
 
     Buyer->>Marketplace: Discovers & Wants to Buy NFT
     Buyer->>Blockchain: Executes purchase via Smart Contract $S_L$
-    Blockchain-->>User: Payment Transferred<br/>(minus fees)
+    Blockchain-->>User: Payment Transferred <br/>(minus fees)
     Blockchain-->>Buyer: NFT Transferred to Buyer's Wallet
     Note left of Buyer: Buyer now "owns" the token, can display/resell based on license in $S_L$.
 ```
