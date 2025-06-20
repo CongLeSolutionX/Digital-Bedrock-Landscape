@@ -438,13 +438,14 @@ config:
       'textColor': '#F8B229',
       'actorBkg': '#22B8',
       'actorBorder': '#7C0000',
-      'secondaryColor': '#6122',
-      'tertiaryColor': '#fff',
-      'fontSize': '15px',
       'actorTextColor': '#E2E',
       'actorLineColor': '#E22E',
+      'activationBkgColor': '#FBBF',
+      'tertiaryColor': '#fff',
+      'fontSize': '15px',
       'signalColor': '#F93B',
-      'signalTextColor': '#2FBE'
+      'signalTextColor': '#2FBE',
+      'sequenceNumberColor': '#000'
     }
   }
 }%%
