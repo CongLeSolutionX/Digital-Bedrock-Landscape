@@ -57,6 +57,7 @@ copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
   layout: elk
   theme: base
+  look: handDrawn
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%%%%%%% Available curve styles include the following keywords:
@@ -70,7 +71,7 @@ config:
       'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
-      'secondaryColor': '#EEF2',
+      'secondaryColor': '#A56D',
       'secondaryTextColor': '#6C3483',
       'secondaryBorderColor': '#A569BD',
       'fontSize': '15px'
@@ -79,7 +80,7 @@ config:
 }%%
 flowchart TD
     subgraph Multics_Project["Multics Project<br/>(Mid-1960s)"]
-    style Multics_Project fill:#f922,stroke:#333,stroke-width:2px
+    style Multics_Project fill:#f922,stroke:#333,stroke-width:1px, color: #FFFF
         ORG_MIT["🏢 MIT"]
         ORG_BellLabs["🔔 Bell Labs"]
         ORG_GE["💡 General Electric"]
@@ -142,6 +143,7 @@ copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
   layout: elk
   theme: base
+  look: handDrawn
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%%%%%%% Available curve styles include the following keywords:
@@ -164,6 +166,7 @@ config:
 }%%
 flowchart LR
     subgraph Path_to_PDP_7_Unix["Path to PDP-7 Unix"]
+    style Path_to_PDP_7_Unix fill:#f922,stroke:#333,stroke-width:1px, color: #FFFF
         Thompson["👨‍💻 Ken Thompson"] --> SpaceTravel_GECOS["🎮 Space Travel <br/>(on GECOS for GE-635)"]
         SpaceTravel_GECOS --> Cost{"High CPU Cost?<br/>($75/game)"}
         Cost -- Yes --> LookForAlternative["🖥️ Alternative Machine"]
