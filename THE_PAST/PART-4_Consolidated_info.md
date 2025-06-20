@@ -306,38 +306,38 @@ config:
   }
 }%%
 mindmap
-  root((Unix Lessons for AI Era))
-    (🏛️ IP Ownership Clarity)
+  root)"Unix Lessons for AI Era"(
+    IP_Ownership_Clarity))"🏛️ IP Ownership Clarity"((
       ::icon(fa fa-landmark)
       Unix: SCO vs. Novell lawsuits (copyright chaos)
       AI: Crucial for models, training data, generated content licenses.
       %% Rule: Explicitly define rights! $$\\mathcal{L}_{AI} = f(\text{data}, \text{model}, \text{output})$$
-    (🌍 Openness & Community)
+    Openness_and_Community))"🌍 Openness & Community"((
       ::icon(fa fa-globe)
       Unix: Early academic licenses fueled V6 spread & BSD innovations.
       %% AI: Open models (BLOOM, Llama) & frameworks (PyTorch) accelerate research.
       %% Rule: Consider open-source (MIT, Apache, OpenRAIL).
-    ("🧱 Restrictive Commercialization Risks")
+    Restrictive_Commercialization_Risks))"🧱 Restrictive Commercialization Risks"((
       ::icon(fa fa-store-slash)
       Unix: "Unix Wars" due to incompatible, proprietary versions.
       AI: Walled gardens, expensive APIs can stifle; risk fragmentation.
       Rule: Balance profit with fair access/interoperability.
-    ("⚙️ Power of Standardization")
+    Power_of_Standardization))"⚙️ Power of Standardization"((
       ::icon(fa fa-cogs)
       Unix: POSIX, SVID reduced chaos, promoted portability.
       %% AI: Needed for model formats (ONNX), APIs, data interchange, ethics.
       Rule: Support/contribute to open standards.
-    ("🐧 FOSS Disruption")
+    FOSS_Disruption))"🐧 FOSS Disruption"((
       ::icon(fa fa-linux)
       Unix: GNU/Linux offered powerful, free alternatives.
       AI: Open-source AI models providing vital alternatives to proprietary ones.
       Rule: Leverage & contribute to FOSS AI.
-    ("📖 Source Code / Model Access Value")
+    Source_Code_and_Model_Access_Value))"📖 Source Code / Model Access Value"((
       ::icon(fa fa-book-open)
       Unix: V6 source helped learning & porting.
       AI: Access to model architectures/weights crucial for research, bias detection, fine-tuning.
       %% Rule: "Open (ish) box" > "black box."
-    ("™️ Trademarks vs. © Copyrights")
+    Trademarks_vs_Copyrights))"™️ Trademarks vs. © Copyrights"((
       ::icon(fa fa-registered)
       %% Unix: "UNIX" trademark (Open Group) vs. code copyrights (Novell for AT&T's).
       AI: Distinction needed for branding AI systems vs. owning underlying model/data IP.
