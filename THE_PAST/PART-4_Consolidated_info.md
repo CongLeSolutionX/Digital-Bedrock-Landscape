@@ -58,26 +58,27 @@ config:
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%{
   init: {
+	'fontFamily': 'Bradley Hand',
     'gantt': {
       'titleTopMargin': 25,
-      'barHeight': 20,
-      'barGap': 5,
-      'topPadding': 75,
-      'rightPadding': 75,
-      'leftPadding': 75,
-      'gridLineStartPadding': 35,
-       'sectionFontSize': 15
+      'barHeight': 15,
+      'barGap': 10,
+      'topPadding': 65,
+      'rightPadding': 10,
+      'leftPadding': 200,
+      'gridLineStartPadding': 25,
+      'sectionFontSize': 15,
+      'numberSectionStyles': 4,
+      'axisFormat': '%Y',
+      'topAxis': true,
+      'weekday': 'sunday'
     },
     'themeVariables': {
-      'primaryColor': '#F8B229',
-      'primaryTextColor': '#2BB',
+      'primaryColor': '#C004',
+      'primaryTextColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
-      'secondaryColor': '#EBDEF0',
-      'secondaryTextColor': '#6C3483',
-      'secondaryBorderColor': '#A569BD',
       'fontSize': '20px'
-    },
-    'fontFamily': 'Bradley Hand'
+    }
   }
 }%%
 gantt
