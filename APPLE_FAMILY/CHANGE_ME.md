@@ -23,7 +23,6 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 # CHANGE_ME
 <details open>
 <summary>Click to show/hide the full disclaimer.</summary>
-   
 
 ----
 
