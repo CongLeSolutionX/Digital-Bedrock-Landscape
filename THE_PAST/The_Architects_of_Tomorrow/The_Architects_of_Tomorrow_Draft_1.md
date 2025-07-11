@@ -341,6 +341,12 @@ Engelbart's vision captivated a new generation of entrepreneurs. Two of them, **
 
 As personal computers proliferated, the next frontier was connecting them. The groundwork was laid by **Vint Cerf** and **Bob Kahn**, who in 1974 designed the fundamental protocols of the Internet: **TCP/IP**. This brilliant two-layer system allowed disparate networks to communicate reliably, creating a robust and decentralized "network of networks."[^9] For years, however, this Internet remained the domain of researchers and academics.
 
+
+
+<details open>
+
+<summary>Click here to show/hide DOT code implementation with comment documentation</summary>
+
 ```dot
 /*
  * title: TCP-IP
@@ -351,7 +357,7 @@ As personal computers proliferated, the next frontier was connecting them. The g
  */
 digraph TCP_IP {
     layout=dot
-    bgcolor="transparent";
+    bgcolor="green";
     rankdir=TB;
     node [shape=box, style="rounded,filled", fontname="Helvetica"];
     edge [fontname="Helvetica"];
@@ -381,6 +387,9 @@ digraph TCP_IP {
 }
 ```
 
+</details>
+
+
 ![TCP-IP diagram example](https://g.gravizo.com/source/svg/Rendered_code_for_TCP_IP_diagram_example?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FDigital-Bedrock-Landscape%2Frefs%2Fheads%2Fmain%2FTHE_PAST%2FThe_Architects_of_Tomorrow%2FThe_Architects_of_Tomorrow_Draft_1.md)
 
 <details>
@@ -391,7 +400,7 @@ Rendered_code_for_TCP_IP_diagram_example
 
 digraph TCP_IP {
     layout=dot
-    bgcolor="transparent"
+    bgcolor="green"
     rankdir=TB
     node [shape=box, style="rounded,filled", fontname="Helvetica"]
     edge [fontname="Helvetica"]
