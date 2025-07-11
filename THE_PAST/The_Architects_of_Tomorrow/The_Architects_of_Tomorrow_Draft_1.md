@@ -20,30 +20,13 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 ----
 
 
-# The Architects of Tomorrow
-### *From the First Algorithm to the World Wide Web*
-<details open>
-<summary>Click to show/hide the full disclaimer.</summary>
-   
-> <ins>📢 **Disclaimer** 🚨</ins>
->
-> This document contains my personal notes on the topic,
-> compiled from publicly available documentation and various cited sources.
-> The materials are intended for educational purposes (<ins>sometimes, entertainment purposes</ins>), personal study, and reference.
-> The content is dual-licensed:
-> 1. **MIT License:** Applies to all code implementations (Swift, Mermaid, and other programming languages).
-> 2. **Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0):** Applies to all non-code content, including text, explanations, diagrams, and illustrations.
-
-</details>
-
-
----
-
 ## The Digital Dawn: A Narrative of Modern Computing
 
 The world we live in, a world of instant communication, boundless information, and intelligent devices, was not born overnight. It is the result of a long chain of dreams, theories, and revolutionary inventions forged by brilliant minds over nearly two centuries. This is the story of how their monumental ideas built upon one another, transforming a mechanical fantasy into our digital reality.
 
-### The Victorian Dream: The First Algorithm ⚙️
+---
+
+## The Victorian Dream: The First Algorithm ⚙️
 
 Our story begins not with silicon and electricity, but with brass gears and paper punch cards in the heart of 19th-century London. Charles Babbage, a mathematician and inventor, envisioned a mechanical marvel he called the **Analytical Engine**—a machine designed to perform any calculation given to it. While Babbage conceived the hardware, it was his collaborator, the gifted mathematician **Ada Lovelace**, who saw its true soul.
 
@@ -91,7 +74,9 @@ flowchart TD
     style B fill:#F2B2,stroke:#1b5e20
 ```
 
-### The Theoretical Blueprint: Defining the Computer 🧠
+---
+
+## The Theoretical Blueprint: Defining the Computer 🧠
 
 Lovelace's dream remained a mechanical fantasy for a hundred years, awaiting a new kind of thinking. It came in 1936 from **Alan Turing**, a British mathematician who, with pure logic, defined what a computer could be. His "Universal Turing Machine" was an abstract model—a device reading and writing symbols on an infinite tape—yet it was powerful enough to simulate any conceivable algorithm. By formalizing the very limits of "computability," Turing laid the theoretical cornerstone upon which all modern computing is built.[^2]
 
@@ -201,7 +186,9 @@ flowchart TD
 
 ```
 
-### The Dawn of Software: Talking to the Machine 📜
+---
+
+## The Dawn of Software: Talking to the Machine 📜
 
 With an architecture defined, the first electronic computers were hulking, room-sized behemoths spoken to only in the arcane language of machine code. The next great leap would be in making them usable. This is where **Grace Hopper**, a U.S. Navy rear admiral and computer scientist, made her indelible mark. Believing that programming should be accessible beyond a small circle of specialists, she created the **A-0 system in 1952**, the world's first **compiler**. This groundbreaking program could translate commands written in a more human-readable language into the binary that machines understood. Hopper's work paved the way for languages like COBOL and democratized programming. Her team is also famously credited with finding the "first actual case of a bug," when a moth became trapped in a relay of the Harvard Mark II computer in 1947, cementing the term in our lexicon.[^4]
 
@@ -299,7 +286,9 @@ flowchart TD
     end
 ```
 
-### The Interactive Age: The Computer Becomes Personal 🖱️
+----
+
+## The Interactive Age: The Computer Becomes Personal 🖱️
 
 By the late 1960s, computers were powerful but remained distant tools. The next revolution would be in bringing them directly to the user. In 1968, in a presentation that would become legendary as **"The Mother of All Demos," Douglas Engelbart** unveiled a vision that was nothing short of science fiction. In one live demonstration, he introduced the computer mouse, hypertext linking, shared-screen collaboration, and video conferencing.[^7] He imagined computing not just for calculation, but as a medium for augmenting human intellect.
 
@@ -346,7 +335,9 @@ mindmap
 
 Engelbart's vision captivated a new generation of entrepreneurs. Two of them, **Steve Jobs** and **Bill Gates**, would take these ideas and forge the personal computer industry. Jobs, with Apple, perfected a vertically integrated model, creating the **Macintosh**—an elegant machine with a user-friendly GUI. Gates, with Microsoft, licensed his **Windows** operating system to a vast ecosystem of hardware manufacturers, making the PC ubiquitous. While their approaches differed, both were driven by the goal of putting a computer on every desk. This new era of personal computing demanded powerful, sophisticated software, often built using languages like **C++**, created by **Bjarne Stroustrup** to add object-oriented power to the C language, making it ideal for crafting complex operating systems and applications.[^8]
 
-### The Great Connection: Weaving the Global Web 🌐
+----
+
+## The Great Connection: Weaving the Global Web 🌐
 
 As personal computers proliferated, the next frontier was connecting them. The groundwork was laid by **Vint Cerf** and **Bob Kahn**, who in 1974 designed the fundamental protocols of the Internet: **TCP/IP**. This brilliant two-layer system allowed disparate networks to communicate reliably, creating a robust and decentralized "network of networks."[^9] For years, however, this Internet remained the domain of researchers and academics.
 
@@ -460,7 +451,9 @@ digraph PageRank {
 }
 ```
 
-### The Open Revolution: Software for the People 🐧
+----
+
+## The Open Revolution: Software for the People 🐧
 
 As the worlds of Apple and Microsoft dominated the PC landscape, a new, collaborative philosophy was brewing. In 1991, a Finnish student named **Linus Torvalds** began working on a new operating system kernel as a hobby. He released his work, which he called **Linux**, under an open-source license, allowing anyone to view, use, modify, and share the code. This attracted a global community of volunteer developers who refined and expanded the system at a staggering pace. The **open-source model** proved that a decentralized, collaborative "bazaar" could produce software that was as robust and secure—if not more so—than the proprietary systems built in the "cathedrals" of large corporations.[^12] This robust, free operating system would go on to power the vast majority of the servers that run the modern internet, including the very Google servers that harnessed PageRank.
 
