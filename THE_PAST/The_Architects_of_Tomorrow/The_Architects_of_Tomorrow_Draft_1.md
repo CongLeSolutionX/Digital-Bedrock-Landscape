@@ -481,6 +481,10 @@ sequenceDiagram
 
 This explosion created a new problem: a vast, chaotic library with no card catalog. Finding anything was nearly impossible. Two Stanford PhD students, **Larry Page** and **Sergey Brin**, provided the solution. Their search engine, Google, was powered by an algorithm called **PageRank**, which ranked the importance of a webpage by counting how many other important pages linked to it. It was a profoundly effective way to bring order to the web's chaos and became the de facto entry point to the digital world.[^11]
 
+<details open>
+
+<summary>Click here to show/hide DOT code implementation with comment documentation</summary>
+
 ```dot
 /*
  * title: The PageRank Algorithm
@@ -490,6 +494,7 @@ This explosion created a new problem: a vast, chaotic library with no card catal
  * copyright: Copyright © 2025 Cong Le. All Rights Reserved.
  */
 digraph PageRank {
+    bgcolor="green";
     rankdir=LR;
     node [shape=circle];
     edge [arrowhead=vee];
@@ -506,6 +511,37 @@ digraph PageRank {
     label="\nLinks from B and an important page C make A important.";
 }
 ```
+
+</details>
+
+
+![PageRank diagram example](https://g.gravizo.com/source/svg/Rendered_code_for_PageRank_diagram_example?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FDigital-Bedrock-Landscape%2Frefs%2Fheads%2Fmain%2FTHE_PAST%2FThe_Architects_of_Tomorrow%2FThe_Architects_of_Tomorrow_Draft_1.md)
+
+<details>
+
+<summary>Rendered code for PageRank diagram example, by Github Camo crawler bot</summary>
+
+Rendered_code_for_PageRank_diagram_example
+
+digraph PageRank {
+    bgcolor="green"
+    rankdir=LR
+    node [shape=circle]
+    edge [arrowhead=vee]
+    B -> A
+    C -> A
+    D -> C
+    A [label="Page A\n(High Rank)"]
+    B [label="Page B"]
+    C [label="Page C\n(Medium Rank)"]
+    D [label="Page D"]
+    label="\nLinks from B and an important page C make A important."
+}
+
+Rendered_code_for_PageRank_diagram_example
+
+</details>
+
 
 ----
 
