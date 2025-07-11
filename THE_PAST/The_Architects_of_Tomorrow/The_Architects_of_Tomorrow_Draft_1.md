@@ -350,6 +350,7 @@ As personal computers proliferated, the next frontier was connecting them. The g
  * copyright: Copyright © 2025 Cong Le. All Rights Reserved.
  */
 digraph TCP_IP {
+    layout=dot
     bgcolor="transparent";
     rankdir=TB;
     node [shape=box, style="rounded,filled", fontname="Helvetica"];
@@ -387,7 +388,9 @@ digraph TCP_IP {
 <summary>Rendered code for TCP-IP diagram example, by Github Camo crawler bot</summary>
 
 Rendered_code_for_TCP_IP_diagram_example
+
 digraph TCP_IP {
+    layout=dot
     bgcolor="transparent"
     rankdir=TB
     node [shape=box, style="rounded,filled", fontname="Helvetica"]
