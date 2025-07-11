@@ -380,6 +380,50 @@ digraph TCP_IP {
 }
 ```
 
+![TCP-IP diagram example](https://g.gravizo.com/source/svg/Rendered_code_for_TCP_IP_diagram_example?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FDigital-Bedrock-Landscape%2Frefs%2Fheads%2Fmain%2FTHE_PAST%2FThe_Architects_of_Tomorrow%2FThe_Architects_of_Tomorrow_Draft_1.md)
+
+<details>
+
+<summary>Rendered code for TCP-IP diagram example, by Github Camo crawler bot</summary>
+
+Rendered_code_for_TCP_IP_diagram_example
+digraph TCP_IP {
+    bgcolor="transparent"
+    rankdir=TB
+    node [shape=box, style="rounded,filled", fontname="Helvetica"]
+    edge [fontname="Helvetica"]
+    subgraph cluster_sender {
+        label="Sender"
+        A [label="Large Data File"]
+        B [label="TCP breaks data into numbered packets", fillcolor="#e3f2fd"]
+        A -> B
+    }
+    subgraph cluster_internet {
+        label="Internet (Multiple Networks)"
+        P1 [label="Packet 3"]; P2 [label="Packet 1"]; P3 [label="Packet 2"]
+        I [label="IP routes packets independently", shape=ellipse, fillcolor="#fff9c4"]
+        P1 -> I
+        P2 -> I
+        P3 -> I
+    }
+    subgraph cluster_receiver {
+        label="Receiver"
+        C [label="TCP reassembles packets using numbers", fillcolor="#e3f2fd"]
+        D [label="Complete Data File"]
+        C -> D
+    }
+    B -> P2 [style=dotted]
+    B -> P3 [style=dotted]
+    B -> P1 [style=dotted]
+    I -> C [style=dotted]
+}
+
+Rendered_code_for_TCP_IP_diagram_example
+
+</details>
+
+
+
 It was **Tim Berners-Lee**, a British scientist at CERN, who unlocked its potential for humanity. By 1990, he had invented the three technologies that form the basis of the **World Wide Web**: **HTML** to structure documents, **URLs** to give each one a unique address, and **HTTP** to transmit them. His system was an elegant, open, and simple way to share information, and it exploded across the globe.[^10]
 
 ```mermaid
